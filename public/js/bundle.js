@@ -141,7 +141,12 @@ var Henna1 = function (_React$Component) {
         _react2.default.createElement(
           'div',
           { className: 'henna1-title' },
-          'Join Ibrahim, Shoaib, and Zaynab for the Nikkah and Mendhi ceremonies!'
+          'Nikkah and Mendhi Ceremonies'
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'henna1-header' },
+          ' Join Ibrahim, Shoaib, and Zaynab for the Nikkah and Mendhi ceremonies! '
         ),
         _react2.default.createElement(
           'div',
@@ -149,19 +154,83 @@ var Henna1 = function (_React$Component) {
           _react2.default.createElement(
             'div',
             { className: 'event-details' },
-            'EVENT DEETS HERE'
+            _react2.default.createElement(
+              'div',
+              { className: 'event-details-title' },
+              ' EVENT DETAILS '
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'event-address' },
+              _react2.default.createElement(
+                'div',
+                { className: 'address-title' },
+                ' Address '
+              ),
+              _react2.default.createElement(
+                'div',
+                { classNAme: 'address-name' },
+                ' Diamond Bar Center '
+              ),
+              _react2.default.createElement(
+                'div',
+                { className: 'address-number' },
+                ' 1600 Grand Ave. '
+              ),
+              _react2.default.createElement(
+                'div',
+                { classNAme: 'address-city' },
+                ' Diamond Bar, CA '
+              )
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'event-schedule' },
+              _react2.default.createElement(
+                'div',
+                null,
+                ' Schedule '
+              ),
+              _react2.default.createElement(
+                'div',
+                null,
+                ' 5 PM: Ladies Only '
+              ),
+              _react2.default.createElement(
+                'div',
+                null,
+                ' 6:30 PM: All Guests '
+              )
+            ),
+            _react2.default.createElement('div', { className: 'event-schedule' })
           ),
           _react2.default.createElement(
-            'form',
-            null,
-            _react2.default.createElement('input', { className: 'form-first-name', placeholder: 'First Name' }),
-            _react2.default.createElement('input', { className: 'form-last-name', placeholder: 'Last Name' }),
-            _react2.default.createElement('input', { className: 'form-email', placeholder: 'Email' }),
-            _react2.default.createElement('input', { className: 'form-event', placeholder: 'Event' }),
-            _react2.default.createElement('input', { className: 'form-number-attending', placeholder: '# attending' }),
-            _react2.default.createElement('input', { className: 'form-attendance-names', placeholder: 'Names of those attending' }),
-            _react2.default.createElement('input', { className: 'form-message', placeholder: 'Message for the bride and groom?' }),
-            _react2.default.createElement('input', { type: 'submit', value: 'Save my spot!' })
+            'div',
+            { className: 'event-form' },
+            _react2.default.createElement(
+              'div',
+              { className: 'form-title' },
+              ' RSVP Form '
+            ),
+            _react2.default.createElement(
+              'form',
+              null,
+              _react2.default.createElement('input', { className: 'form-first-name', placeholder: 'First Name' }),
+              _react2.default.createElement('br', null),
+              _react2.default.createElement('input', { className: 'form-last-name', placeholder: 'Last Name' }),
+              _react2.default.createElement('br', null),
+              _react2.default.createElement('input', { className: 'form-email', placeholder: 'Email' }),
+              _react2.default.createElement('br', null),
+              _react2.default.createElement('input', { className: 'form-event', placeholder: 'Event' }),
+              _react2.default.createElement('br', null),
+              _react2.default.createElement('input', { className: 'form-number-attending', placeholder: '# attending' }),
+              _react2.default.createElement('br', null),
+              _react2.default.createElement('input', { className: 'form-attendance-names', placeholder: 'Names of those attending' }),
+              _react2.default.createElement('br', null),
+              _react2.default.createElement('input', { className: 'form-message', placeholder: 'Message for the bride and groom?' }),
+              _react2.default.createElement('br', null),
+              _react2.default.createElement('input', { className: 'form-submit', type: 'submit', value: 'Save me a plate!' })
+            )
           )
         )
       );
