@@ -6679,11 +6679,19 @@ button.close {
   font-family: 'Amatic SC', cursive;
 }
 .home-page .home-title {
+  width: 100%;
   font-size: 96px;
   color: white;
   background-color: lightcoral;
-  padding-top: 3%;
+  padding-top: 1%;
   height: 200px;
+  display: inline-block;
+}
+.home-page .home-title .noor-sulayman {
+  margin: 1%;
+}
+.home-page .home-title img {
+  width: 30%;
 }
 .home-page form {
   margin: 5%;
@@ -6713,24 +6721,67 @@ button.close {
   font-size: 56px;
   color: black;
   background-color: #bef4a3;
-  padding-top: 5%;
-  height: 200px;
+  padding-top: 2%;
+  height: 150px;
+  font-weight: bold;
+}
+.henna1-page .henna1-title .bismallah {
+  width: 25%;
 }
 .henna1-page .henna1-header {
   text-align: center;
   font-size: 36px;
-  margin: 2%;
+  margin: 3%;
 }
 .henna1-page .henna1-content {
+  margin: 5%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 3%;
 }
-.henna1-page .henna1-content .event-details {
+.henna1-page .henna1-content .mendhi-details {
+  width: 65%;
+}
+.henna1-page .henna1-content .mendhi-details .event-details-title {
+  font-size: 48px;
+  background-color: #83dbf4;
+  color: black;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+.henna1-page .henna1-content .mendhi-details .mendhi-content .event-details {
+  font-size: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.henna1-page .henna1-content .mendhi-details .mendhi-content .event-details .event-address {
   width: 50%;
 }
-.henna1-page .henna1-content .event-details .event-details-title {
+.henna1-page .henna1-content .mendhi-details .mendhi-content .event-details .event-address .address-title {
+  color: #83dbf4;
+  font-weight: bold;
+}
+.henna1-page .henna1-content .mendhi-details .mendhi-content .event-details .event-schedule {
+  width: 50%;
+}
+.henna1-page .henna1-content .mendhi-details .mendhi-content .event-details .event-schedule .schedule-title {
+  color: #83dbf4;
+  font-weight: bold;
+}
+.henna1-page .henna1-content .mendhi-details .mendhi-content .mendhi-map a {
+  font-size: 40px;
+  text-decoration: none;
+}
+.henna1-page .henna1-content .mendhi-details .mendhi-content .mendhi-map a:hover {
+  color: lightseagreen;
+}
+.henna1-page .henna1-content .rsvp-form {
+  width: 35%;
+}
+.henna1-page .henna1-content .rsvp-form .event-form .form-title {
   font-size: 48px;
   background-color: #83dbf4;
   color: black;
@@ -6738,20 +6789,12 @@ button.close {
   margin-left: auto;
   margin-right: auto;
   border-radius: 5px;
+  border: none;
 }
-.henna1-page .henna1-content .event-form {
-  width: 50%;
+.henna1-page .henna1-content .rsvp-form .event-form button:focus {
+  outline: 0;
 }
-.henna1-page .henna1-content .event-form .form-title {
-  font-size: 48px;
-  background-color: #83dbf4;
-  color: black;
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 5px;
-}
-.henna1-page .henna1-content .event-form input {
+.henna1-page .henna1-content .rsvp-form .event-form input {
   width: 70%;
   height: 48px;
   font-size: 24px;
@@ -6761,7 +6804,7 @@ button.close {
   border-width: 0 0 2px 0;
   border-color: #83dbf4;
 }
-.henna1-page .henna1-content .event-form .form-submit {
+.henna1-page .henna1-content .rsvp-form .event-form .form-submit {
   border-radius: 5px;
   background: #83dbf4;
   border-bottom: none;

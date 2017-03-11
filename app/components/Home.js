@@ -15,7 +15,9 @@ class Home extends React.Component {
     return (
       <div className='home-page'>
         <div className='home-title'>
+          <img src='img/flower_line.png' />
           Noor & Sulayman
+          <img src='img/flower_line.png' />   
         </div>
         <form onSubmit={formSubmitHandler}> 
           <input type='text' placeholder='ENTER CODE HERE' ref='codeInput'/>

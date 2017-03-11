@@ -12,11 +12,19 @@
   text-align: center;
   font-family: 'Amatic SC', cursive;
   .home-title {
+    width: 100%;
     font-size: 96px;
     color: white;
     background-color: lightcoral;
-    padding-top: 3%;
+    padding-top: 1%;
     height: 200px;
+    display: inline-block;
+    .noor-sulayman {
+      margin: 1%;
+    }
+    img {
+      width: 30%;
+    }
   }
   form {
     margin: 5%;
@@ -41,6 +49,8 @@
   }
 }
 
+//////////////////// HENNA1 ////////////////////////
+
 .henna1-page {
   text-align: center;
   font-family: 'Amatic SC', cursive;
@@ -48,55 +58,92 @@
     font-size: 56px;
     color: black;
     background-color: #bef4a3;
-    padding-top: 5%;
-    height: 200px;
+    padding-top: 2%;
+    height: 150px;
+    font-weight: bold;
+    .bismallah {
+      width: 25%;
+    }
   }
   .henna1-header {
     text-align: center;
     font-size: 36px;
-    margin: 2%;
+    margin: 3%;
   }
   .henna1-content {
+    margin: 5%;
     display: flex;
-    margin: 3%;
-    .event-details {
-      width: 50%;
+    .mendhi-details{
+      width: 65%;
       .event-details-title {
         font-size: 48px;
         background-color: #83dbf4;
         color: black;
-        width: 70%;
+        width: 85%;
         margin-left: auto;
         margin-right: auto;
         border-radius: 5px;
+      }
+      .mendhi-content {
+        .event-details {
+          font-size: 40px;
+          display: flex;
+          .event-address{
+            width: 50%;
+            .address-title {
+              color:  #83dbf4;
+              font-weight: bold;
+            }
+          }
+          .event-schedule {
+            width: 50%;
+            .schedule-title {
+              color: #83dbf4;
+              font-weight: bold;
+            }
+          }
+        }
+        .mendhi-map {
+          a {
+            font-size: 40px;
+            text-decoration: none;
+            &:hover {
+              color: lightseagreen;
+            }
+          }
+        }
       }
     }
-    .event-form {
-      width: 50%;
-      .form-title {
-        font-size: 48px;
-        background-color: #83dbf4;
-        color: black;
-        width: 70%;
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 5px;
-      }
-      input {
-        width: 70%;
-        height: 48px;
-        font-size: 24px;
-        text-align: center;
-        margin: 1%;
-        outline: 0;
-        border-width: 0 0 2px 0;
-        border-color: #83dbf4;
-      }
-      .form-submit {
-        border-radius: 5px;
-        background: #83dbf4;
-        border-bottom: none;
-        color: black;
+    .rsvp-form {
+      width: 35%;
+      .event-form {
+        .form-title {
+          font-size: 48px;
+          background-color: #83dbf4;
+          color: black;
+          width: 70%;
+          margin-left: auto;
+          margin-right: auto;
+          border-radius: 5px;
+          border: none;
+        }
+        button:focus {outline:0;}
+        input {
+          width: 70%;
+          height: 48px;
+          font-size: 24px;
+          text-align: center;
+          margin: 1%;
+          outline: 0;
+          border-width: 0 0 2px 0;
+          border-color: #83dbf4;
+        }
+        .form-submit {
+          border-radius: 5px;
+          background: #83dbf4;
+          border-bottom: none;
+          color: black;
+        }
       }
     }
   }
