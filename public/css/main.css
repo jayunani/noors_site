@@ -6728,11 +6728,6 @@ button.close {
 .henna1-page .henna1-title .bismallah {
   width: 25%;
 }
-.henna1-page .henna1-header {
-  text-align: center;
-  font-size: 36px;
-  margin: 3%;
-}
 .henna1-page .henna1-content {
   margin: 5%;
   display: -webkit-box;
@@ -6740,7 +6735,7 @@ button.close {
   display: flex;
 }
 .henna1-page .henna1-content .mendhi-details {
-  width: 65%;
+  width: 100%;
 }
 .henna1-page .henna1-content .mendhi-details .event-details-title {
   font-size: 48px;
@@ -6779,7 +6774,7 @@ button.close {
   color: lightseagreen;
 }
 .henna1-page .henna1-content .rsvp-form {
-  width: 35%;
+  margin: auto;
 }
 .henna1-page .henna1-content .rsvp-form .event-form .form-title {
   font-size: 48px;
@@ -6814,25 +6809,683 @@ button.close {
   text-align: center;
   font-family: 'Amatic SC', cursive;
 }
+.mubarak12-page .mubarak12-title {
+  font-size: 56px;
+  color: black;
+  background-color: #eea6a6;
+  padding-top: 2%;
+  height: 150px;
+  font-weight: bold;
+}
+.mubarak12-page .mubarak12-title .bismallah {
+  width: 25%;
+}
+.mubarak12-page .mubarak12-content {
+  margin: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.mubarak12-page .mubarak12-content .mendhi-details {
+  width: 50%;
+}
+.mubarak12-page .mubarak12-content .mendhi-details .event-details-title {
+  font-size: 32px;
+  background-color: #83dbf4;
+  color: black;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+.mubarak12-page .mubarak12-content .mendhi-details .mendhi-content .event-details {
+  font-size: 32px;
+}
+.mubarak12-page .mubarak12-content .mendhi-details .mendhi-content .event-details .event-address .address-title {
+  color: #83dbf4;
+  font-weight: bold;
+}
+.mubarak12-page .mubarak12-content .mendhi-details .mendhi-content .event-details .event-schedule .schedule-title {
+  color: #83dbf4;
+  font-weight: bold;
+}
+.mubarak12-page .mubarak12-content .mendhi-details .mendhi-content .mendhi-map a {
+  font-size: 40px;
+  text-decoration: none;
+}
+.mubarak12-page .mubarak12-content .mendhi-details .mendhi-content .mendhi-map a:hover {
+  color: lightseagreen;
+}
+.mubarak12-page .mubarak12-content .shaadi-details {
+  width: 50%;
+}
+.mubarak12-page .mubarak12-content .shaadi-details .event-details-title {
+  font-size: 32px;
+  background-color: #83dbf4;
+  color: black;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+.mubarak12-page .mubarak12-content .shaadi-details .shaadi-content {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mubarak12-page .mubarak12-content .shaadi-details .shaadi-content .event-message {
+  font-size: 20px;
+}
+.mubarak12-page .mubarak12-content .shaadi-details .shaadi-content .event-details {
+  font-size: 32px;
+}
+.mubarak12-page .mubarak12-content .shaadi-details .shaadi-content .event-details .event-address .address-title {
+  color: #83dbf4;
+  font-weight: bold;
+}
+.mubarak12-page .mubarak12-content .shaadi-details .shaadi-content .event-details .event-schedule .schedule-title {
+  color: #83dbf4;
+  font-weight: bold;
+}
+.mubarak12-page .mubarak12-content .shaadi-details .shaadi-content .shaadi-map a {
+  font-size: 40px;
+  text-decoration: none;
+}
+.mubarak12-page .mubarak12-content .shaadi-details .shaadi-content .shaadi-map a:hover {
+  color: lightseagreen;
+}
+.mubarak12-page .mubarak12-content .rsvp-form {
+  margin: auto;
+}
+.mubarak12-page .mubarak12-content .rsvp-form .event-form .form-title {
+  font-size: 32px;
+  background-color: #83dbf4;
+  color: black;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  border: none;
+}
+.mubarak12-page .mubarak12-content .rsvp-form .event-form button:focus {
+  outline: 0;
+}
+.mubarak12-page .mubarak12-content .rsvp-form .event-form input {
+  width: 70%;
+  height: 48px;
+  font-size: 24px;
+  text-align: center;
+  margin: 1%;
+  outline: 0;
+  border-width: 0 0 2px 0;
+  border-color: #83dbf4;
+}
+.mubarak12-page .mubarak12-content .rsvp-form .event-form .form-submit {
+  border-radius: 5px;
+  background: #83dbf4;
+  border-bottom: none;
+  color: black;
+}
 .sajna123-page {
   text-align: center;
   font-family: 'Amatic SC', cursive;
+}
+.sajna123-page .sajna123-title {
+  font-size: 56px;
+  color: black;
+  background-color: #eea6a6;
+  padding-top: 2%;
+  height: 150px;
+  font-weight: bold;
+}
+.sajna123-page .sajna123-title .bismallah {
+  width: 25%;
+}
+.sajna123-page .sajna123-content {
+  margin: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.sajna123-page .sajna123-content .mendhi-details {
+  width: 33%;
+}
+.sajna123-page .sajna123-content .mendhi-details .event-details-title {
+  font-size: 48px;
+  background-color: #83dbf4;
+  color: black;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+.sajna123-page .sajna123-content .mendhi-details .mendhi-content .event-details {
+  font-size: 32px;
+}
+.sajna123-page .sajna123-content .mendhi-details .mendhi-content .event-details .event-address .address-title {
+  color: #83dbf4;
+  font-weight: bold;
+}
+.sajna123-page .sajna123-content .mendhi-details .mendhi-content .event-details .event-schedule .schedule-title {
+  color: #83dbf4;
+  font-weight: bold;
+}
+.sajna123-page .sajna123-content .mendhi-details .mendhi-content .mendhi-map a {
+  font-size: 40px;
+  text-decoration: none;
+}
+.sajna123-page .sajna123-content .mendhi-details .mendhi-content .mendhi-map a:hover {
+  color: lightseagreen;
+}
+.sajna123-page .sajna123-content .shaadi-details {
+  width: 33%;
+}
+.sajna123-page .sajna123-content .shaadi-details .event-details-title {
+  font-size: 48px;
+  background-color: #83dbf4;
+  color: black;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+.sajna123-page .sajna123-content .shaadi-details .shaadi-content {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sajna123-page .sajna123-content .shaadi-details .shaadi-content .event-message {
+  font-size: 20px;
+}
+.sajna123-page .sajna123-content .shaadi-details .shaadi-content .event-details {
+  font-size: 32px;
+}
+.sajna123-page .sajna123-content .shaadi-details .shaadi-content .event-details .event-address .address-title {
+  color: #83dbf4;
+  font-weight: bold;
+}
+.sajna123-page .sajna123-content .shaadi-details .shaadi-content .event-details .event-schedule .schedule-title {
+  color: #83dbf4;
+  font-weight: bold;
+}
+.sajna123-page .sajna123-content .shaadi-details .shaadi-content .shaadi-map a {
+  font-size: 40px;
+  text-decoration: none;
+}
+.sajna123-page .sajna123-content .shaadi-details .shaadi-content .shaadi-map a:hover {
+  color: lightseagreen;
+}
+.sajna123-page .sajna123-content .valima-details {
+  width: 33%;
+}
+.sajna123-page .sajna123-content .valima-details .event-details-title {
+  font-size: 48px;
+  background-color: #83dbf4;
+  color: black;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+.sajna123-page .sajna123-content .valima-details .valima-content .event-details {
+  font-size: 32px;
+}
+.sajna123-page .sajna123-content .valima-details .valima-content .event-details .event-address .address-title {
+  color: #83dbf4;
+  font-weight: bold;
+}
+.sajna123-page .sajna123-content .valima-details .valima-content .event-details .event-schedule .schedule-title {
+  color: #83dbf4;
+  font-weight: bold;
+}
+.sajna123-page .sajna123-content .valima-details .valima-content .valima-map a {
+  font-size: 40px;
+  text-decoration: none;
+}
+.sajna123-page .sajna123-content .valima-details .valima-content .valima-map a:hover {
+  color: lightseagreen;
+}
+.sajna123-page .sajna123-content .rsvp-form {
+  margin: auto;
+}
+.sajna123-page .sajna123-content .rsvp-form .event-form .form-title {
+  font-size: 20px;
+  background-color: #83dbf4;
+  color: black;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  border: none;
+}
+.sajna123-page .sajna123-content .rsvp-form .event-form button:focus {
+  outline: 0;
+}
+.sajna123-page .sajna123-content .rsvp-form .event-form input {
+  width: 70%;
+  height: 48px;
+  font-size: 20px;
+  text-align: center;
+  margin: 1%;
+  outline: 0;
+  border-width: 0 0 2px 0;
+  border-color: #83dbf4;
+}
+.sajna123-page .sajna123-content .rsvp-form .event-form .form-submit {
+  border-radius: 5px;
+  background: #83dbf4;
+  border-bottom: none;
+  color: black;
 }
 .mabrook23-page {
   text-align: center;
   font-family: 'Amatic SC', cursive;
 }
+.mabrook23-page .mabrook23-title {
+  font-size: 56px;
+  color: black;
+  background-color: #eea6a6;
+  padding-top: 2%;
+  height: 150px;
+  font-weight: bold;
+}
+.mabrook23-page .mabrook23-title .bismallah {
+  width: 25%;
+}
+.mabrook23-page .mabrook23-content {
+  margin: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.mabrook23-page .mabrook23-content .shaadi-details {
+  width: 50%;
+}
+.mabrook23-page .mabrook23-content .shaadi-details .event-details-title {
+  font-size: 48px;
+  background-color: #83dbf4;
+  color: black;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+.mabrook23-page .mabrook23-content .shaadi-details .shaadi-content {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mabrook23-page .mabrook23-content .shaadi-details .shaadi-content .event-message {
+  font-size: 20px;
+}
+.mabrook23-page .mabrook23-content .shaadi-details .shaadi-content .event-details {
+  font-size: 32px;
+}
+.mabrook23-page .mabrook23-content .shaadi-details .shaadi-content .event-details .event-address .address-title {
+  color: #83dbf4;
+  font-weight: bold;
+}
+.mabrook23-page .mabrook23-content .shaadi-details .shaadi-content .event-details .event-schedule .schedule-title {
+  color: #83dbf4;
+  font-weight: bold;
+}
+.mabrook23-page .mabrook23-content .shaadi-details .shaadi-content .shaadi-map a {
+  font-size: 40px;
+  text-decoration: none;
+}
+.mabrook23-page .mabrook23-content .shaadi-details .shaadi-content .shaadi-map a:hover {
+  color: lightseagreen;
+}
+.mabrook23-page .mabrook23-content .valima-details {
+  width: 50%;
+}
+.mabrook23-page .mabrook23-content .valima-details .event-details-title {
+  font-size: 48px;
+  background-color: #83dbf4;
+  color: black;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+.mabrook23-page .mabrook23-content .valima-details .valima-content .event-details {
+  font-size: 32px;
+}
+.mabrook23-page .mabrook23-content .valima-details .valima-content .event-details .event-address .address-title {
+  color: #83dbf4;
+  font-weight: bold;
+}
+.mabrook23-page .mabrook23-content .valima-details .valima-content .event-details .event-schedule .schedule-title {
+  color: #83dbf4;
+  font-weight: bold;
+}
+.mabrook23-page .mabrook23-content .valima-details .valima-content .valima-map a {
+  font-size: 40px;
+  text-decoration: none;
+}
+.mabrook23-page .mabrook23-content .valima-details .valima-content .valima-map a:hover {
+  color: lightseagreen;
+}
+.mabrook23-page .mabrook23-content .rsvp-form {
+  margin: auto;
+}
+.mabrook23-page .mabrook23-content .rsvp-form .event-form .form-title {
+  font-size: 32px;
+  background-color: #83dbf4;
+  color: black;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  border: none;
+}
+.mabrook23-page .mabrook23-content .rsvp-form .event-form button:focus {
+  outline: 0;
+}
+.mabrook23-page .mabrook23-content .rsvp-form .event-form input {
+  width: 70%;
+  height: 48px;
+  font-size: 24px;
+  text-align: center;
+  margin: 1%;
+  outline: 0;
+  border-width: 0 0 2px 0;
+  border-color: #83dbf4;
+}
+.mabrook23-page .mabrook23-content .rsvp-form .event-form .form-submit {
+  border-radius: 5px;
+  background: #83dbf4;
+  border-bottom: none;
+  color: black;
+}
 .sulenoor3-page {
   text-align: center;
   font-family: 'Amatic SC', cursive;
+}
+.sulenoor3-page .sulenoor3-title {
+  font-size: 56px;
+  color: black;
+  background-color: #eea6a6;
+  padding-top: 2%;
+  height: 150px;
+  font-weight: bold;
+}
+.sulenoor3-page .sulenoor3-title .bismallah {
+  width: 25%;
+}
+.sulenoor3-page .sulenoor3-content {
+  margin: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.sulenoor3-page .sulenoor3-content .valima-details {
+  width: 100%;
+}
+.sulenoor3-page .sulenoor3-content .valima-details .event-details-title {
+  font-size: 32px;
+  background-color: #83dbf4;
+  color: black;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+.sulenoor3-page .sulenoor3-content .valima-details .valima-content .event-details {
+  font-size: 32px;
+}
+.sulenoor3-page .sulenoor3-content .valima-details .valima-content .event-details .event-address .address-title {
+  color: #83dbf4;
+  font-weight: bold;
+}
+.sulenoor3-page .sulenoor3-content .valima-details .valima-content .event-details .event-schedule .schedule-title {
+  color: #83dbf4;
+  font-weight: bold;
+}
+.sulenoor3-page .sulenoor3-content .valima-details .valima-content .valima-map a {
+  font-size: 40px;
+  text-decoration: none;
+}
+.sulenoor3-page .sulenoor3-content .valima-details .valima-content .valima-map a:hover {
+  color: lightseagreen;
+}
+.sulenoor3-page .sulenoor3-content .rsvp-form {
+  margin: auto;
+}
+.sulenoor3-page .sulenoor3-content .rsvp-form .event-form .form-title {
+  font-size: 24px;
+  background-color: #83dbf4;
+  color: black;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  border: none;
+}
+.sulenoor3-page .sulenoor3-content .rsvp-form .event-form button:focus {
+  outline: 0;
+}
+.sulenoor3-page .sulenoor3-content .rsvp-form .event-form input {
+  width: 70%;
+  height: 48px;
+  font-size: 24px;
+  text-align: center;
+  margin: 1%;
+  outline: 0;
+  border-width: 0 0 2px 0;
+  border-color: #83dbf4;
+}
+.sulenoor3-page .sulenoor3-content .rsvp-form .event-form .form-submit {
+  border-radius: 5px;
+  background: #83dbf4;
+  border-bottom: none;
+  color: black;
 }
 .nooresul2-page {
   text-align: center;
   font-family: 'Amatic SC', cursive;
 }
+.nooresul2-page .nooresul2-title {
+  font-size: 32px;
+  color: black;
+  background-color: #eea6a6;
+  padding-top: 2%;
+  height: 150px;
+  font-weight: bold;
+}
+.nooresul2-page .nooresul2-title .bismallah {
+  width: 25%;
+}
+.nooresul2-page .nooresul2-content {
+  margin: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.nooresul2-page .nooresul2-content .shaadi-details {
+  width: 100%;
+}
+.nooresul2-page .nooresul2-content .shaadi-details .event-details-title {
+  font-size: 48px;
+  background-color: #83dbf4;
+  color: black;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+.nooresul2-page .nooresul2-content .shaadi-details .shaadi-content {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nooresul2-page .nooresul2-content .shaadi-details .shaadi-content .event-message {
+  font-size: 20px;
+}
+.nooresul2-page .nooresul2-content .shaadi-details .shaadi-content .event-details {
+  font-size: 32px;
+}
+.nooresul2-page .nooresul2-content .shaadi-details .shaadi-content .event-details .event-address .address-title {
+  color: #83dbf4;
+  font-weight: bold;
+}
+.nooresul2-page .nooresul2-content .shaadi-details .shaadi-content .event-details .event-schedule .schedule-title {
+  color: #83dbf4;
+  font-weight: bold;
+}
+.nooresul2-page .nooresul2-content .shaadi-details .shaadi-content .shaadi-map a {
+  font-size: 40px;
+  text-decoration: none;
+}
+.nooresul2-page .nooresul2-content .shaadi-details .shaadi-content .shaadi-map a:hover {
+  color: lightseagreen;
+}
+.nooresul2-page .nooresul2-content .rsvp-form {
+  width: 35%;
+  margin: auto;
+}
+.nooresul2-page .nooresul2-content .rsvp-form .event-form .form-title {
+  font-size: 32px;
+  background-color: #83dbf4;
+  color: black;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  border: none;
+}
+.nooresul2-page .nooresul2-content .rsvp-form .event-form button:focus {
+  outline: 0;
+}
+.nooresul2-page .nooresul2-content .rsvp-form .event-form input {
+  width: 70%;
+  height: 48px;
+  font-size: 24px;
+  text-align: center;
+  margin: 1%;
+  outline: 0;
+  border-width: 0 0 2px 0;
+  border-color: #83dbf4;
+}
+.nooresul2-page .nooresul2-content .rsvp-form .event-form .form-submit {
+  border-radius: 5px;
+  background: #83dbf4;
+  border-bottom: none;
+  color: black;
+}
 .tchowdhry13-page {
   text-align: center;
   font-family: 'Amatic SC', cursive;
+}
+.tchowdhry13-page .tchowdhry13-title {
+  font-size: 56px;
+  color: black;
+  background-color: #eea6a6;
+  padding-top: 2%;
+  height: 150px;
+  font-weight: bold;
+}
+.tchowdhry13-page .tchowdhry13-title .bismallah {
+  width: 25%;
+}
+.tchowdhry13-page .tchowdhry13-content {
+  margin: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.tchowdhry13-page .tchowdhry13-content .mendhi-details {
+  width: 50%;
+}
+.tchowdhry13-page .tchowdhry13-content .mendhi-details .event-details-title {
+  font-size: 32px;
+  background-color: #83dbf4;
+  color: black;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+.tchowdhry13-page .tchowdhry13-content .mendhi-details .mendhi-content .event-details {
+  font-size: 32px;
+}
+.tchowdhry13-page .tchowdhry13-content .mendhi-details .mendhi-content .event-details .event-address .address-title {
+  color: #83dbf4;
+  font-weight: bold;
+}
+.tchowdhry13-page .tchowdhry13-content .mendhi-details .mendhi-content .event-details .event-schedule .schedule-title {
+  color: #83dbf4;
+  font-weight: bold;
+}
+.tchowdhry13-page .tchowdhry13-content .mendhi-details .mendhi-content .mendhi-map a {
+  font-size: 40px;
+  text-decoration: none;
+}
+.tchowdhry13-page .tchowdhry13-content .mendhi-details .mendhi-content .mendhi-map a:hover {
+  color: lightseagreen;
+}
+.tchowdhry13-page .tchowdhry13-content .valima-details {
+  width: 50%;
+}
+.tchowdhry13-page .tchowdhry13-content .valima-details .event-details-title {
+  font-size: 32px;
+  background-color: #83dbf4;
+  color: black;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+.tchowdhry13-page .tchowdhry13-content .valima-details .valima-content .event-details {
+  font-size: 32px;
+}
+.tchowdhry13-page .tchowdhry13-content .valima-details .valima-content .event-details .event-address .address-title {
+  color: #83dbf4;
+  font-weight: bold;
+}
+.tchowdhry13-page .tchowdhry13-content .valima-details .valima-content .event-details .event-schedule .schedule-title {
+  color: #83dbf4;
+  font-weight: bold;
+}
+.tchowdhry13-page .tchowdhry13-content .valima-details .valima-content .valima-map a {
+  font-size: 40px;
+  text-decoration: none;
+}
+.tchowdhry13-page .tchowdhry13-content .valima-details .valima-content .valima-map a:hover {
+  color: lightseagreen;
+}
+.tchowdhry13-page .tchowdhry13-content .rsvp-form {
+  width: 30%;
+  margin: auto;
+}
+.tchowdhry13-page .tchowdhry13-content .rsvp-form .event-form .form-title {
+  font-size: 32px;
+  background-color: #83dbf4;
+  color: black;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  border: none;
+}
+.tchowdhry13-page .tchowdhry13-content .rsvp-form .event-form button:focus {
+  outline: 0;
+}
+.tchowdhry13-page .tchowdhry13-content .rsvp-form .event-form input {
+  width: 70%;
+  height: 48px;
+  font-size: 24px;
+  text-align: center;
+  margin: 1%;
+  outline: 0;
+  border-width: 0 0 2px 0;
+  border-color: #83dbf4;
+}
+.tchowdhry13-page .tchowdhry13-content .rsvp-form .event-form .form-submit {
+  border-radius: 5px;
+  background: #83dbf4;
+  border-bottom: none;
+  color: black;
 }
 .error1-page {
   text-align: center;

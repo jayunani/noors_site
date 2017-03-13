@@ -1,5 +1,4 @@
 import React from 'react';
-import RsvpForm from './RsvpForm.js';
 import MendhiDetails from './MendhiDetails.js';
 
 class Henna1 extends React.Component {
@@ -12,7 +11,6 @@ class Henna1 extends React.Component {
         </div>
         <div className='henna1-content'>
           <MendhiDetails />
-          <RsvpForm />
         </div>
       </div>
     );
