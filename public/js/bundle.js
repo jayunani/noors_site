@@ -263,15 +263,22 @@ var Home = function (_React$Component) {
         _react2.default.createElement(
           'div',
           { className: 'home-title' },
-          _react2.default.createElement('img', { src: 'img/flower_line.png' }),
           'Noor & Sulayman',
-          _react2.default.createElement('img', { src: 'img/flower_line.png' })
+          _react2.default.createElement(
+            'div',
+            { className: 'home-header-date' },
+            ' ARE GETTING MARRIED! '
+          )
         ),
         _react2.default.createElement(
-          'form',
-          { onSubmit: formSubmitHandler },
-          _react2.default.createElement('input', { type: 'text', placeholder: 'ENTER CODE HERE', ref: 'codeInput' }),
-          _react2.default.createElement('input', { type: 'submit', className: 'submit-btn', value: 'Go!' })
+          'div',
+          { className: 'home-body' },
+          _react2.default.createElement(
+            'form',
+            { onSubmit: formSubmitHandler },
+            _react2.default.createElement('input', { type: 'text', placeholder: 'ENTER CODE HERE', ref: 'codeInput', className: 'code-input' }),
+            _react2.default.createElement('input', { type: 'submit', className: 'submit-btn', value: 'Go!' })
+          )
         )
       );
     }

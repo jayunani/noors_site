@@ -6693,25 +6693,39 @@ button.close {
 .home-page .home-title img {
   width: 30%;
 }
-.home-page form {
-  margin: 5%;
+.home-page .home-title .home-header-date {
+  background-color: #F08080;
+  color: white;
+  margin-top: -10px;
+  font-size: 32px;
 }
-.home-page form input {
+.home-page .home-body {
+  background-image: url("/img/fireworks_pic_revised_2-02.jpg");
+  background-repeat: no-repeat;
+  height: 450px;
+}
+.home-page .home-body form input {
   height: 60px;
   width: 50%;
   text-align: center;
   font-size: 36px;
   margin: 1%;
   outline: 0;
-  border-width: 0 0 2px 0;
-  border-color: lightcoral;
+  border-radius: 5px;
+  border: none;
 }
-.home-page form .submit-btn {
+.home-page .home-body form .code-input {
+  margin-top: 10%;
+  background-color: white;
+  opacity: .7;
+}
+.home-page .home-body form .submit-btn {
   font-size: 36px;
   border: 1px solid lightcoral;
   background: lightcoral;
   color: white;
   border-radius: 5px;
+  opacity: .9;
 }
 .henna1-page {
   text-align: center;
@@ -6777,10 +6791,10 @@ button.close {
   margin: auto;
 }
 .henna1-page .henna1-content .rsvp-form .event-form .form-title {
-  font-size: 48px;
+  font-size: 32px;
   background-color: #83dbf4;
   color: black;
-  width: 70%;
+  width: 40%;
   margin-left: auto;
   margin-right: auto;
   border-radius: 5px;
@@ -6790,9 +6804,9 @@ button.close {
   outline: 0;
 }
 .henna1-page .henna1-content .rsvp-form .event-form input {
-  width: 70%;
-  height: 48px;
-  font-size: 24px;
+  width: 40%;
+  height: 40px;
+  font-size: 28px;
   text-align: center;
   margin: 1%;
   outline: 0;
@@ -6830,7 +6844,7 @@ button.close {
   width: 50%;
 }
 .mubarak12-page .mubarak12-content .mendhi-details .event-details-title {
-  font-size: 32px;
+  font-size: 48px;
   background-color: #83dbf4;
   color: black;
   width: 85%;
@@ -6860,7 +6874,7 @@ button.close {
   width: 50%;
 }
 .mubarak12-page .mubarak12-content .shaadi-details .event-details-title {
-  font-size: 32px;
+  font-size: 48px;
   background-color: #83dbf4;
   color: black;
   width: 85%;
@@ -6888,7 +6902,7 @@ button.close {
   font-weight: bold;
 }
 .mubarak12-page .mubarak12-content .shaadi-details .shaadi-content .shaadi-map a {
-  font-size: 40px;
+  font-size: 48px;
   text-decoration: none;
 }
 .mubarak12-page .mubarak12-content .shaadi-details .shaadi-content .shaadi-map a:hover {
@@ -7049,7 +7063,7 @@ button.close {
   margin: auto;
 }
 .sajna123-page .sajna123-content .rsvp-form .event-form .form-title {
-  font-size: 20px;
+  font-size: 32px;
   background-color: #83dbf4;
   color: black;
   width: 70%;
@@ -7064,7 +7078,7 @@ button.close {
 .sajna123-page .sajna123-content .rsvp-form .event-form input {
   width: 70%;
   height: 48px;
-  font-size: 20px;
+  font-size: 24px;
   text-align: center;
   margin: 1%;
   outline: 0;
@@ -7455,7 +7469,7 @@ button.close {
   color: lightseagreen;
 }
 .tchowdhry13-page .tchowdhry13-content .rsvp-form {
-  width: 30%;
+  width: 50%;
   margin: auto;
 }
 .tchowdhry13-page .tchowdhry13-content .rsvp-form .event-form .form-title {
