@@ -1,5 +1,6 @@
 import React from 'react';
-import ShaadiDetails from './ShaadiDetails.js';
+import ShaadiDetails from '../EventDetails/ShaadiDetails.js';
+import Footer from '../Footer.js';
 
 class Nooresul2 extends React.Component {
   render() {
@@ -12,6 +13,7 @@ class Nooresul2 extends React.Component {
         <div className='nooresul2-content'>
           <ShaadiDetails />
         </div>
+        <Footer />
       </div>
     );
   }

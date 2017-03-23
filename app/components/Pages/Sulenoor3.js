@@ -1,5 +1,6 @@
 import React from 'react';
-import ValimaDetails from './ValimaDetails.js';
+import ValimaDetails from '../EventDetails/ValimaDetails.js';
+import Footer from '../Footer.js';
 
 class Sulenoor3 extends React.Component {
   render() {
@@ -12,6 +13,7 @@ class Sulenoor3 extends React.Component {
         <div className='sulenoor3-content'>
           <ValimaDetails />
         </div>
+        <Footer />
       </div>
     );
   }

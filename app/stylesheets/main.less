@@ -1,4 +1,5 @@
 @import '../../bower_components/bootstrap/less/bootstrap';
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
 
 // COLORS
@@ -8,38 +9,38 @@
 // purple #e3a1dd
 // green #bef4a3
 
-@home-title: #8687ec;
-@home-code-line: #a0f6d6;
+@header-title: midnightblue;
+@header-text: #E0AA33;
+@title-background: midnightblue;
+@title-text: #a0f6d6;
+@mendhi: #30bace;
+@mendhi2: #056876;
+@shaadi: #ff8282;
+@shaadi2: #b44b4b;
+@valima: #42d25a;
+@valima2: #2b8139;
+
+@lime-green: #97e565;
+@light-lime: #ddf694;
+@light-coral: #ff8e68;
+@dark-coral: #ff5b5b;
+@light-brown: sandybrown; 
+
 
 .home-page {
   text-align: center;
-  font-family: 'Amatic SC', cursive;
-  .home-title {
-    width: 100%;
-    font-size: 96px;
-    color: white;
-    background-color: lightcoral;
-    padding-top: 1%;
-    height: 200px;
-    display: inline-block;
-    .noor-sulayman {
-      margin: 1%;
-    }
-    img {
-      width: 30%;
-    }
-    .home-header-date {
-      background-color: #F08080;
-      color: white;
-      margin-top: -10px;
-      font-size: 32px;
-    }
-  }
+  font-family: 'Great Vibes', cursive;
   .home-body {
+    .noor-sulayman {
+      color: white;
+      font-size: 100px;
+      padding-top: 3%;
+    }
     background-image: url("/img/fireworks_pic_revised_2-02.jpg");
     background-repeat: no-repeat;
-    height: 450px;
+    height: 600px;
     form {
+    font-family: 'Amatic SC', cursive;
       input {
         text-align: center;
         height: 60px;
@@ -70,13 +71,13 @@
 
 //////////////////// HENNA1 ////////////////////////
 
-.henna1-page {
+.page {
   text-align: center;
   font-family: 'Amatic SC', cursive;
-  .henna1-title {
+  .title {
     font-size: 56px;
     color: black;
-    background-color: #bef4a3;
+    background-color: @light-coral;
     padding-top: 2%;
     height: 150px;
     font-weight: bold;
@@ -84,14 +85,14 @@
       width: 25%;
     }
   }
-  .henna1-content {
+  .event-content {
     margin: 5%;
     display: flex;
     .mendhi-details{
       width: 100%;
       .event-details-title {
         font-size: 48px;
-        background-color: #83dbf4;
+        background-color: @light-lime;
         color: black;
         width: 85%;
         margin-left: auto;
@@ -105,14 +106,14 @@
           .event-address{
             width: 50%;
             .address-title {
-              color:  #83dbf4;
+              color:  @dark-coral;
               font-weight: bold;
             }
           }
           .event-schedule {
             width: 50%;
             .schedule-title {
-              color: #83dbf4;
+              color: @dark-coral;
               font-weight: bold;
             }
           }
@@ -121,8 +122,39 @@
           a {
             font-size: 40px;
             text-decoration: none;
+            color: @lime-green;
             &:hover {
-              color: lightseagreen;
+              color: @dark-coral;
+            }
+          }
+        }
+      }
+      .shaadi-content {
+        .event-details {
+          font-size: 40px;
+          display: flex;
+          .event-address{
+            width: 50%;
+            .address-title {
+              color:  @dark-coral;
+              font-weight: bold;
+            }
+          }
+          .event-schedule {
+            width: 50%;
+            .schedule-title {
+              color: @dark-coral;
+              font-weight: bold;
+            }
+          }
+        }
+        .shaadi-map {
+          a {
+            font-size: 40px;
+            text-decoration: none;
+            color: @lime-green;
+            &:hover {
+              color: @dark-coral;
             }
           }
         }
@@ -133,7 +165,7 @@
       .event-form {
         .form-title {
           font-size: 32px;
-          background-color: #83dbf4;
+          background-color: @light-lime;
           color: black;
           width: 40%;
           margin-left: auto;
@@ -150,11 +182,12 @@
           margin: 1%;
           outline: 0;
           border-width: 0 0 2px 0;
-          border-color: #83dbf4;
+          border-color: @dark-coral;
+          color: @light-brown;
         }
         .form-submit {
           border-radius: 5px;
-          background: #83dbf4;
+          background: @light-lime;
           border-bottom: none;
           color: black;
         }
@@ -165,139 +198,142 @@
 
 ///////////// MUBARAK12 ////////////////
 
-.mubarak12-page {
-  text-align: center;
-  font-family: 'Amatic SC', cursive;
-  .mubarak12-title {
-    font-size: 56px;
-    color: black;
-    background-color: #eea6a6;
-    padding-top: 2%;
-    height: 150px;
-    font-weight: bold;
-    .bismallah {
-      width: 25%;
-    }
-  }
-  .mubarak12-content {
-    margin: 5%;
-    display: flex;
-    .mendhi-details{
-      width: 50%;
-      .event-details-title {
-        font-size: 48px;
-        background-color: #83dbf4;
-        color: black;
-        width: 85%;
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 5px;
-      }
-      .mendhi-content {
-        .event-details {
-          font-size: 32px;
-          .event-address{
-            .address-title {
-              color:  #83dbf4;
-              font-weight: bold;
-            }
-          }
-          .event-schedule {
-            .schedule-title {
-              color: #83dbf4;
-              font-weight: bold;
-            }
-          }
-        }
-        .mendhi-map {
-          a {
-            font-size: 40px;
-            text-decoration: none;
-            &:hover {
-              color: lightseagreen;
-            }
-          }
-        }
-      }
-    }
-    .shaadi-details {
-      width: 50%;
-      .event-details-title {
-        font-size: 48px;
-        background-color: #83dbf4;
-        color: black;
-        width: 85%;
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 5px;
-      }
-      .shaadi-content {
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-        .event-message {
-          font-size: 20px;
-        }
-        .event-details {
-          font-size: 32px;
-          .event-address{
-            .address-title {
-              color:  #83dbf4;
-              font-weight: bold;
-            }
-          }
-          .event-schedule {
-            .schedule-title {
-              color: #83dbf4;
-              font-weight: bold;
-            }
-          }
-        }
-        .shaadi-map {
-          a {
-            font-size: 48px;
-            text-decoration: none;
-            &:hover {
-              color: lightseagreen;
-            }
-          }
-        }
-      }
-    }
-    .rsvp-form {
-      margin: auto;
-      .event-form {
-        .form-title {
-          font-size: 32px;
-          background-color: #83dbf4;
-          color: black;
-          width: 70%;
-          margin-left: auto;
-          margin-right: auto;
-          border-radius: 5px;
-          border: none;
-        }
-        button:focus {outline:0;}
-        input {
-          width: 70%;
-          height: 48px;
-          font-size: 24px;
-          text-align: center;
-          margin: 1%;
-          outline: 0;
-          border-width: 0 0 2px 0;
-          border-color: #83dbf4;
-        }
-        .form-submit {
-          border-radius: 5px;
-          background: #83dbf4;
-          border-bottom: none;
-          color: black;
-        }
-      }
-    }   
-  }
-}
+// .mubarak12-page {
+//   text-align: center;
+//   font-family: 'Amatic SC', cursive;
+//   .mubarak12-title {
+//     font-size: 56px;
+//     color: black;
+//     background-color: @light-coral;
+//     padding-top: 2%;
+//     height: 150px;
+//     font-weight: bold;
+//     .bismallah {
+//       width: 25%;
+//     }
+//   }
+//   .mubarak12-content {
+//     margin: 5%;
+//     display: flex;
+//     .mendhi-details{
+//       width: 50%;
+//       .event-details-title {
+//         font-size: 48px;
+//         background-color: @light-lime;
+//         color: black;
+//         width: 85%;
+//         margin-left: auto;
+//         margin-right: auto;
+//         border-radius: 5px;
+//       }
+//       .mendhi-content {
+//         .event-details {
+//           font-size: 32px;
+//           .event-address{
+//             .address-title {
+//               color:  @dark-coral;
+//               font-weight: bold;
+//             }
+//           }
+//           .event-schedule {
+//             .schedule-title {
+//               color: @dark-coral;
+//               font-weight: bold;
+//             }
+//           }
+//         }
+//         .mendhi-map {
+//           a {
+//             font-size: 40px;
+//             text-decoration: none;
+//             color: @lime-green;
+//             &:hover {
+//               color: @dark-coral;
+//             }
+//           }
+//         }
+//       }
+//     }
+//     .shaadi-details {
+//       width: 50%;
+//       .event-details-title {
+//         font-size: 48px;
+//         background-color: @light-coral;
+//         color: black;
+//         width: 85%;
+//         margin-left: auto;
+//         margin-right: auto;
+//         border-radius: 5px;
+//       }
+//       .shaadi-content {
+//         width: 80%;
+//         margin-left: auto;
+//         margin-right: auto;
+//         .event-message {
+//           font-size: 20px;
+//         }
+//         .event-details {
+//           font-size: 32px;
+//           .event-address{
+//             .address-title {
+//               color: @dark-coral;
+//               font-weight: bold;
+//             }
+//           }
+//           .event-schedule {
+//             .schedule-title {
+//               color: @dark-coral;
+//               font-weight: bold;
+//             }
+//           }
+//         }
+//         .shaadi-map {
+//           a {
+//             font-size: 40px;
+//             text-decoration: none;
+//             color: @lime-green;
+//             &:hover {
+//               color: @dark-coral;
+//             }
+//           }
+//         }
+//       }
+//     }
+//     .rsvp-form {
+//       margin: auto;
+//       .event-form {
+//         .form-title {
+//           font-size: 32px;
+//           background-color: @light-lime;
+//           color: black;
+//           width: 70%;
+//           margin-left: auto;
+//           margin-right: auto;
+//           border-radius: 5px;
+//           border: none;
+//         }
+//         button:focus {outline:0;}
+//         input {
+//           width: 70%;
+//           height: 48px;
+//           font-size: 24px;
+//           text-align: center;
+//           margin: 1%;
+//           outline: 0;
+//           border-width: 0 0 2px 0;
+//           border-color: @dark-coral;
+//           color: @light-brown;
+//         }
+//         .form-submit {
+//           border-radius: 5px;
+//           background: @light-lime;
+//           border-bottom: none;
+//           color: black;
+//         }
+//       }
+//     }   
+//   }
+// }
 
 //////////////////////// SAJNA123 ///////////////
 
@@ -306,9 +342,8 @@
   font-family: 'Amatic SC', cursive;
   .sajna123-title {
     font-size: 56px;
-    color: black;
-    background-color: #eea6a6;
-    padding-top: 2%;
+    background-color: @light-coral;
+    padding-top: 1%;
     height: 150px;
     font-weight: bold;
     .bismallah {
@@ -322,8 +357,7 @@
       width: 33%;
       .event-details-title {
         font-size: 48px;
-        background-color: #83dbf4;
-        color: black;
+        background-color: @light-lime;
         width: 85%;
         margin-left: auto;
         margin-right: auto;
@@ -334,13 +368,13 @@
           font-size: 32px;
           .event-address{
             .address-title {
-              color:  #83dbf4;
+              color:  @dark-coral;
               font-weight: bold;
             }
           }
           .event-schedule {
             .schedule-title {
-              color: #83dbf4;
+              color: @dark-coral;
               font-weight: bold;
             }
           }
@@ -349,8 +383,9 @@
           a {
             font-size: 40px;
             text-decoration: none;
+            color: @light-lime;
             &:hover {
-              color: lightseagreen;
+              color: @dark-coral;
             }
           }
         }
@@ -360,8 +395,7 @@
       width: 33%;
       .event-details-title {
         font-size: 48px;
-        background-color: #83dbf4;
-        color: black;
+        background-color: @light-lime;
         width: 85%;
         margin-left: auto;
         margin-right: auto;
@@ -378,13 +412,13 @@
           font-size: 32px;
           .event-address{
             .address-title {
-              color:  #83dbf4;
+              color:  @dark-coral;
               font-weight: bold;
             }
           }
           .event-schedule {
             .schedule-title {
-              color: #83dbf4;
+              color: @dark-coral;
               font-weight: bold;
             }
           }
@@ -393,8 +427,9 @@
           a {
             font-size: 40px;
             text-decoration: none;
+            color: @light-lime;
             &:hover {
-              color: lightseagreen;
+              color: @dark-coral;
             }
           }
         }
@@ -404,8 +439,7 @@
       width: 33%;
       .event-details-title {
         font-size: 48px;
-        background-color: #83dbf4;
-        color: black;
+        background-color: @light-lime;
         width: 85%;
         margin-left: auto;
         margin-right: auto;
@@ -416,13 +450,13 @@
           font-size: 32px;
           .event-address{
             .address-title {
-              color:  #83dbf4;
+              color:  @dark-coral;
               font-weight: bold;
             }
           }
           .event-schedule {
             .schedule-title {
-              color: #83dbf4;
+              color: @dark-coral;
               font-weight: bold;
             }
           }
@@ -431,8 +465,9 @@
           a {
             font-size: 40px;
             text-decoration: none;
+            color: @light-lime;
             &:hover {
-              color: lightseagreen;
+              color: @dark-coral;
             }
           }
         }
@@ -443,8 +478,8 @@
       .event-form {
         .form-title {
           font-size: 32px;
-          background-color: #83dbf4;
-          color: black;
+          background-color: @light-coral;
+          color: @light-brown;
           width: 70%;
           margin-left: auto;
           margin-right: auto;
@@ -460,13 +495,13 @@
           margin: 1%;
           outline: 0;
           border-width: 0 0 2px 0;
-          border-color: #83dbf4;
+          border-color: @lime-green;
         }
         .form-submit {
           border-radius: 5px;
-          background: #83dbf4;
+          background: @light-coral;
           border-bottom: none;
-          color: black;
+          color: @light-brown;
         }
       }
     }   
@@ -579,7 +614,7 @@
       .event-form {
         .form-title {
           font-size: 32px;
-          background-color: #83dbf4;
+          background-color: @header-title;
           color: black;
           width: 70%;
           margin-left: auto;
@@ -928,6 +963,14 @@
         }
       }
     }   
+  }
+}
+
+.footer-section {
+  background-color: @light-coral;
+  height: 200px;
+  img {
+    height: 50%
   }
 }
 

@@ -1,6 +1,7 @@
 import React from 'react';
-import MendhiDetails from './MendhiDetails.js';
-import ValimaDetails from './ValimaDetails.js';
+import MendhiDetails from '../EventDetails/MendhiDetails.js';
+import ValimaDetails from '../EventDetails/ValimaDetails.js';
+import Footer from '../Footer.js';
 
 class Tchowdhry13 extends React.Component {
   render() {
@@ -14,6 +15,7 @@ class Tchowdhry13 extends React.Component {
           <MendhiDetails />
           <ValimaDetails />
         </div>
+        <Footer />
       </div>
     );
   }

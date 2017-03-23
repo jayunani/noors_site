@@ -2,7 +2,8 @@ import React from 'react';
 
 class Home extends React.Component {
   render() {
-    let codes = ['henna1', 'mubarak12', 'sajna123', 'mabrook23', 'sulenoor3', 'nooresul2', 'tchowdhry13'];
+    // let codes = ['henna1', 'mubarak12', 'sajna123', 'mabrook23', 'sulenoor3', 'nooresul2', 'tchowdhry13'];
+    let codes = ['hottamales', '562925', 'noorethaoos', 'kashmirichai', 'ucsd', 'villagepizza', 'sajna'];
     let formSubmitHandler = ((e) => {
       e.preventDefault();
       let codeValue = this.refs.codeInput.value;
@@ -14,13 +15,10 @@ class Home extends React.Component {
     })
     return (
       <div className='home-page'>
-        <div className='home-title'>
-          {/*<img src='img/flower_line.png' />*/}
-          Noor & Sulayman
-          {/*<img src='img/flower_line.png' />*/}
-          <div className='home-header-date'> ARE GETTING MARRIED! </div>  
-        </div>
         <div className='home-body'>
+          <div className='noor-sulayman'> 
+            Noor & Sulayman 
+          </div>
           <form onSubmit={formSubmitHandler}> 
             <input type='text' placeholder='ENTER CODE HERE' ref='codeInput' className='code-input'/>
             <input type='submit' className='submit-btn' value='Go!'/>

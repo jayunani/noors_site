@@ -1,16 +1,16 @@
 import React from 'react';
-import MendhiDetails from './MendhiDetails.js';
-import ShaadiDetails from './ShaadiDetails.js';
+import MendhiDetails from '../EventDetails/MendhiDetails.js';
+import ShaadiDetails from '../EventDetails/ShaadiDetails.js';
 
 class Mubarak12 extends React.Component {
   render() {
     return (
-      <div className='mubarak12-page'>
-        <div className='mubarak12-title'>
+      <div className='page'>
+        <div className='title'>
           <img src='/img/bismillah8.png' className='bismallah'/>
           <div className='event-details'> Event Details </div>
         </div>
-        <div className='mubarak12-content'>
+        <div className='event-content'>
           <MendhiDetails />
           <ShaadiDetails />
         </div>

@@ -1,8 +1,8 @@
 import React from 'react';
-import MendhiDetails from './MendhiDetails.js';
-import ShaadiDetails from './ShaadiDetails.js';
-import ValimaDetails from './ValimaDetails.js';
-import Footer from './Footer.js';
+import MendhiDetails from '../EventDetails/MendhiDetails.js';
+import ShaadiDetails from '../EventDetails/ShaadiDetails.js';
+import ValimaDetails from '../EventDetails/ValimaDetails.js';
+import Footer from '../Footer.js';
 
 class Sajna123 extends React.Component {
   render() {

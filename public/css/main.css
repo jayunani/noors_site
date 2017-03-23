@@ -4,6 +4,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
 html {
   font-family: sans-serif;
@@ -6676,33 +6677,20 @@ button.close {
 }
 .home-page {
   text-align: center;
-  font-family: 'Amatic SC', cursive;
-}
-.home-page .home-title {
-  width: 100%;
-  font-size: 96px;
-  color: white;
-  background-color: lightcoral;
-  padding-top: 1%;
-  height: 200px;
-  display: inline-block;
-}
-.home-page .home-title .noor-sulayman {
-  margin: 1%;
-}
-.home-page .home-title img {
-  width: 30%;
-}
-.home-page .home-title .home-header-date {
-  background-color: #F08080;
-  color: white;
-  margin-top: -10px;
-  font-size: 32px;
+  font-family: 'Great Vibes', cursive;
 }
 .home-page .home-body {
   background-image: url("/img/fireworks_pic_revised_2-02.jpg");
   background-repeat: no-repeat;
-  height: 450px;
+  height: 600px;
+}
+.home-page .home-body .noor-sulayman {
+  color: white;
+  font-size: 100px;
+  padding-top: 3%;
+}
+.home-page .home-body form {
+  font-family: 'Amatic SC', cursive;
 }
 .home-page .home-body form input {
   height: 60px;
@@ -6727,72 +6715,101 @@ button.close {
   border-radius: 5px;
   opacity: .9;
 }
-.henna1-page {
+.page {
   text-align: center;
   font-family: 'Amatic SC', cursive;
 }
-.henna1-page .henna1-title {
+.page .title {
   font-size: 56px;
   color: black;
-  background-color: #bef4a3;
+  background-color: #ff8e68;
   padding-top: 2%;
   height: 150px;
   font-weight: bold;
 }
-.henna1-page .henna1-title .bismallah {
+.page .title .bismallah {
   width: 25%;
 }
-.henna1-page .henna1-content {
+.page .event-content {
   margin: 5%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-.henna1-page .henna1-content .mendhi-details {
+.page .event-content .mendhi-details {
   width: 100%;
 }
-.henna1-page .henna1-content .mendhi-details .event-details-title {
+.page .event-content .mendhi-details .event-details-title {
   font-size: 48px;
-  background-color: #83dbf4;
+  background-color: #ddf694;
   color: black;
   width: 85%;
   margin-left: auto;
   margin-right: auto;
   border-radius: 5px;
 }
-.henna1-page .henna1-content .mendhi-details .mendhi-content .event-details {
+.page .event-content .mendhi-details .mendhi-content .event-details {
   font-size: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-.henna1-page .henna1-content .mendhi-details .mendhi-content .event-details .event-address {
+.page .event-content .mendhi-details .mendhi-content .event-details .event-address {
   width: 50%;
 }
-.henna1-page .henna1-content .mendhi-details .mendhi-content .event-details .event-address .address-title {
-  color: #83dbf4;
+.page .event-content .mendhi-details .mendhi-content .event-details .event-address .address-title {
+  color: #ff5b5b;
   font-weight: bold;
 }
-.henna1-page .henna1-content .mendhi-details .mendhi-content .event-details .event-schedule {
+.page .event-content .mendhi-details .mendhi-content .event-details .event-schedule {
   width: 50%;
 }
-.henna1-page .henna1-content .mendhi-details .mendhi-content .event-details .event-schedule .schedule-title {
-  color: #83dbf4;
+.page .event-content .mendhi-details .mendhi-content .event-details .event-schedule .schedule-title {
+  color: #ff5b5b;
   font-weight: bold;
 }
-.henna1-page .henna1-content .mendhi-details .mendhi-content .mendhi-map a {
+.page .event-content .mendhi-details .mendhi-content .mendhi-map a {
   font-size: 40px;
   text-decoration: none;
+  color: #97e565;
 }
-.henna1-page .henna1-content .mendhi-details .mendhi-content .mendhi-map a:hover {
-  color: lightseagreen;
+.page .event-content .mendhi-details .mendhi-content .mendhi-map a:hover {
+  color: #ff5b5b;
 }
-.henna1-page .henna1-content .rsvp-form {
+.page .event-content .mendhi-details .shaadi-content .event-details {
+  font-size: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.page .event-content .mendhi-details .shaadi-content .event-details .event-address {
+  width: 50%;
+}
+.page .event-content .mendhi-details .shaadi-content .event-details .event-address .address-title {
+  color: #ff5b5b;
+  font-weight: bold;
+}
+.page .event-content .mendhi-details .shaadi-content .event-details .event-schedule {
+  width: 50%;
+}
+.page .event-content .mendhi-details .shaadi-content .event-details .event-schedule .schedule-title {
+  color: #ff5b5b;
+  font-weight: bold;
+}
+.page .event-content .mendhi-details .shaadi-content .shaadi-map a {
+  font-size: 40px;
+  text-decoration: none;
+  color: #97e565;
+}
+.page .event-content .mendhi-details .shaadi-content .shaadi-map a:hover {
+  color: #ff5b5b;
+}
+.page .event-content .rsvp-form {
   margin: auto;
 }
-.henna1-page .henna1-content .rsvp-form .event-form .form-title {
+.page .event-content .rsvp-form .event-form .form-title {
   font-size: 32px;
-  background-color: #83dbf4;
+  background-color: #ddf694;
   color: black;
   width: 40%;
   margin-left: auto;
@@ -6800,10 +6817,10 @@ button.close {
   border-radius: 5px;
   border: none;
 }
-.henna1-page .henna1-content .rsvp-form .event-form button:focus {
+.page .event-content .rsvp-form .event-form button:focus {
   outline: 0;
 }
-.henna1-page .henna1-content .rsvp-form .event-form input {
+.page .event-content .rsvp-form .event-form input {
   width: 40%;
   height: 40px;
   font-size: 28px;
@@ -6811,132 +6828,12 @@ button.close {
   margin: 1%;
   outline: 0;
   border-width: 0 0 2px 0;
-  border-color: #83dbf4;
+  border-color: #ff5b5b;
+  color: sandybrown;
 }
-.henna1-page .henna1-content .rsvp-form .event-form .form-submit {
+.page .event-content .rsvp-form .event-form .form-submit {
   border-radius: 5px;
-  background: #83dbf4;
-  border-bottom: none;
-  color: black;
-}
-.mubarak12-page {
-  text-align: center;
-  font-family: 'Amatic SC', cursive;
-}
-.mubarak12-page .mubarak12-title {
-  font-size: 56px;
-  color: black;
-  background-color: #eea6a6;
-  padding-top: 2%;
-  height: 150px;
-  font-weight: bold;
-}
-.mubarak12-page .mubarak12-title .bismallah {
-  width: 25%;
-}
-.mubarak12-page .mubarak12-content {
-  margin: 5%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-.mubarak12-page .mubarak12-content .mendhi-details {
-  width: 50%;
-}
-.mubarak12-page .mubarak12-content .mendhi-details .event-details-title {
-  font-size: 48px;
-  background-color: #83dbf4;
-  color: black;
-  width: 85%;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 5px;
-}
-.mubarak12-page .mubarak12-content .mendhi-details .mendhi-content .event-details {
-  font-size: 32px;
-}
-.mubarak12-page .mubarak12-content .mendhi-details .mendhi-content .event-details .event-address .address-title {
-  color: #83dbf4;
-  font-weight: bold;
-}
-.mubarak12-page .mubarak12-content .mendhi-details .mendhi-content .event-details .event-schedule .schedule-title {
-  color: #83dbf4;
-  font-weight: bold;
-}
-.mubarak12-page .mubarak12-content .mendhi-details .mendhi-content .mendhi-map a {
-  font-size: 40px;
-  text-decoration: none;
-}
-.mubarak12-page .mubarak12-content .mendhi-details .mendhi-content .mendhi-map a:hover {
-  color: lightseagreen;
-}
-.mubarak12-page .mubarak12-content .shaadi-details {
-  width: 50%;
-}
-.mubarak12-page .mubarak12-content .shaadi-details .event-details-title {
-  font-size: 48px;
-  background-color: #83dbf4;
-  color: black;
-  width: 85%;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 5px;
-}
-.mubarak12-page .mubarak12-content .shaadi-details .shaadi-content {
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-}
-.mubarak12-page .mubarak12-content .shaadi-details .shaadi-content .event-message {
-  font-size: 20px;
-}
-.mubarak12-page .mubarak12-content .shaadi-details .shaadi-content .event-details {
-  font-size: 32px;
-}
-.mubarak12-page .mubarak12-content .shaadi-details .shaadi-content .event-details .event-address .address-title {
-  color: #83dbf4;
-  font-weight: bold;
-}
-.mubarak12-page .mubarak12-content .shaadi-details .shaadi-content .event-details .event-schedule .schedule-title {
-  color: #83dbf4;
-  font-weight: bold;
-}
-.mubarak12-page .mubarak12-content .shaadi-details .shaadi-content .shaadi-map a {
-  font-size: 48px;
-  text-decoration: none;
-}
-.mubarak12-page .mubarak12-content .shaadi-details .shaadi-content .shaadi-map a:hover {
-  color: lightseagreen;
-}
-.mubarak12-page .mubarak12-content .rsvp-form {
-  margin: auto;
-}
-.mubarak12-page .mubarak12-content .rsvp-form .event-form .form-title {
-  font-size: 32px;
-  background-color: #83dbf4;
-  color: black;
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 5px;
-  border: none;
-}
-.mubarak12-page .mubarak12-content .rsvp-form .event-form button:focus {
-  outline: 0;
-}
-.mubarak12-page .mubarak12-content .rsvp-form .event-form input {
-  width: 70%;
-  height: 48px;
-  font-size: 24px;
-  text-align: center;
-  margin: 1%;
-  outline: 0;
-  border-width: 0 0 2px 0;
-  border-color: #83dbf4;
-}
-.mubarak12-page .mubarak12-content .rsvp-form .event-form .form-submit {
-  border-radius: 5px;
-  background: #83dbf4;
+  background: #ddf694;
   border-bottom: none;
   color: black;
 }
@@ -6946,9 +6843,8 @@ button.close {
 }
 .sajna123-page .sajna123-title {
   font-size: 56px;
-  color: black;
-  background-color: #eea6a6;
-  padding-top: 2%;
+  background-color: #ff8e68;
+  padding-top: 1%;
   height: 150px;
   font-weight: bold;
 }
@@ -6966,8 +6862,7 @@ button.close {
 }
 .sajna123-page .sajna123-content .mendhi-details .event-details-title {
   font-size: 48px;
-  background-color: #83dbf4;
-  color: black;
+  background-color: #ddf694;
   width: 85%;
   margin-left: auto;
   margin-right: auto;
@@ -6977,27 +6872,27 @@ button.close {
   font-size: 32px;
 }
 .sajna123-page .sajna123-content .mendhi-details .mendhi-content .event-details .event-address .address-title {
-  color: #83dbf4;
+  color: #ff5b5b;
   font-weight: bold;
 }
 .sajna123-page .sajna123-content .mendhi-details .mendhi-content .event-details .event-schedule .schedule-title {
-  color: #83dbf4;
+  color: #ff5b5b;
   font-weight: bold;
 }
 .sajna123-page .sajna123-content .mendhi-details .mendhi-content .mendhi-map a {
   font-size: 40px;
   text-decoration: none;
+  color: #ddf694;
 }
 .sajna123-page .sajna123-content .mendhi-details .mendhi-content .mendhi-map a:hover {
-  color: lightseagreen;
+  color: #ff5b5b;
 }
 .sajna123-page .sajna123-content .shaadi-details {
   width: 33%;
 }
 .sajna123-page .sajna123-content .shaadi-details .event-details-title {
   font-size: 48px;
-  background-color: #83dbf4;
-  color: black;
+  background-color: #ddf694;
   width: 85%;
   margin-left: auto;
   margin-right: auto;
@@ -7015,27 +6910,27 @@ button.close {
   font-size: 32px;
 }
 .sajna123-page .sajna123-content .shaadi-details .shaadi-content .event-details .event-address .address-title {
-  color: #83dbf4;
+  color: #ff5b5b;
   font-weight: bold;
 }
 .sajna123-page .sajna123-content .shaadi-details .shaadi-content .event-details .event-schedule .schedule-title {
-  color: #83dbf4;
+  color: #ff5b5b;
   font-weight: bold;
 }
 .sajna123-page .sajna123-content .shaadi-details .shaadi-content .shaadi-map a {
   font-size: 40px;
   text-decoration: none;
+  color: #ddf694;
 }
 .sajna123-page .sajna123-content .shaadi-details .shaadi-content .shaadi-map a:hover {
-  color: lightseagreen;
+  color: #ff5b5b;
 }
 .sajna123-page .sajna123-content .valima-details {
   width: 33%;
 }
 .sajna123-page .sajna123-content .valima-details .event-details-title {
   font-size: 48px;
-  background-color: #83dbf4;
-  color: black;
+  background-color: #ddf694;
   width: 85%;
   margin-left: auto;
   margin-right: auto;
@@ -7045,27 +6940,28 @@ button.close {
   font-size: 32px;
 }
 .sajna123-page .sajna123-content .valima-details .valima-content .event-details .event-address .address-title {
-  color: #83dbf4;
+  color: #ff5b5b;
   font-weight: bold;
 }
 .sajna123-page .sajna123-content .valima-details .valima-content .event-details .event-schedule .schedule-title {
-  color: #83dbf4;
+  color: #ff5b5b;
   font-weight: bold;
 }
 .sajna123-page .sajna123-content .valima-details .valima-content .valima-map a {
   font-size: 40px;
   text-decoration: none;
+  color: #ddf694;
 }
 .sajna123-page .sajna123-content .valima-details .valima-content .valima-map a:hover {
-  color: lightseagreen;
+  color: #ff5b5b;
 }
 .sajna123-page .sajna123-content .rsvp-form {
   margin: auto;
 }
 .sajna123-page .sajna123-content .rsvp-form .event-form .form-title {
   font-size: 32px;
-  background-color: #83dbf4;
-  color: black;
+  background-color: #ff8e68;
+  color: sandybrown;
   width: 70%;
   margin-left: auto;
   margin-right: auto;
@@ -7083,13 +6979,13 @@ button.close {
   margin: 1%;
   outline: 0;
   border-width: 0 0 2px 0;
-  border-color: #83dbf4;
+  border-color: #97e565;
 }
 .sajna123-page .sajna123-content .rsvp-form .event-form .form-submit {
   border-radius: 5px;
-  background: #83dbf4;
+  background: #ff8e68;
   border-bottom: none;
-  color: black;
+  color: sandybrown;
 }
 .mabrook23-page {
   text-align: center;
@@ -7185,7 +7081,7 @@ button.close {
 }
 .mabrook23-page .mabrook23-content .rsvp-form .event-form .form-title {
   font-size: 32px;
-  background-color: #83dbf4;
+  background-color: midnightblue;
   color: black;
   width: 70%;
   margin-left: auto;
@@ -7500,6 +7396,13 @@ button.close {
   background: #83dbf4;
   border-bottom: none;
   color: black;
+}
+.footer-section {
+  background-color: #ff8e68;
+  height: 200px;
+}
+.footer-section img {
+  height: 50%;
 }
 .error1-page {
   text-align: center;

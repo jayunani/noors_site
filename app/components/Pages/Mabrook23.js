@@ -1,6 +1,7 @@
 import React from 'react';
-import ShaadiDetails from './ShaadiDetails.js';
-import ValimaDetails from './ValimaDetails.js';
+import ShaadiDetails from '../EventDetails/ShaadiDetails.js';
+import ValimaDetails from '../EventDetails/ValimaDetails.js';
+import Footer from '../Footer.js';
 
 class Mabrook23 extends React.Component {
   render() {
@@ -14,6 +15,7 @@ class Mabrook23 extends React.Component {
           <ShaadiDetails />
           <ValimaDetails />
         </div>
+        <Footer />
       </div>
     );
   }
