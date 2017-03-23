@@ -194,6 +194,11 @@ var MendhiDetails = function (_React$Component) {
                 'div',
                 null,
                 ' 6:30 PM: All guests '
+              ),
+              _react2.default.createElement(
+                'div',
+                null,
+                ' *Please be punctual '
               )
             )
           ),
@@ -530,7 +535,6 @@ var Home = function (_React$Component) {
     value: function render() {
       var _this2 = this;
 
-      // let codes = ['henna1', 'mubarak12', 'sajna123', 'mabrook23', 'sulenoor3', 'nooresul2', 'tchowdhry13'];
       var codes = ['hottamales', '562925', 'noorethaoos', 'kashmirichai', 'ucsd', 'villagepizza', 'sajna'];
       var formSubmitHandler = function formSubmitHandler(e) {
         e.preventDefault();

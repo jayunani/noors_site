@@ -2,7 +2,6 @@ import React from 'react';
 
 class Home extends React.Component {
   render() {
-    // let codes = ['henna1', 'mubarak12', 'sajna123', 'mabrook23', 'sulenoor3', 'nooresul2', 'tchowdhry13'];
     let codes = ['hottamales', '562925', 'noorethaoos', 'kashmirichai', 'ucsd', 'villagepizza', 'sajna'];
     let formSubmitHandler = ((e) => {
       e.preventDefault();

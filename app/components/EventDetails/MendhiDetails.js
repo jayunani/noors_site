@@ -21,6 +21,7 @@ class MendhiDetails extends React.Component {
               <div className='schedule-title'> Schedule </div>
               <div> 5 PM: Ladies Only </div>
               <div> 6:30 PM: All guests </div>
+              <div> *Please be punctual </div>
             </div>
 
           </div>
