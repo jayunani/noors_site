@@ -210,7 +210,8 @@ var MendhiDetails = function (_React$Component) {
               { href: 'https://www.google.com/maps/place/Diamond+Bar+Center/@33.9986695,-117.7999005,17z/data=!3m1!4b1!4m5!3m4!1s0x80c32ce8e2ae8d11:0xdce3ea98d1d8016b!8m2!3d33.9986695!4d-117.7977118', target: '_blank' },
               ' Map it for me! '
             )
-          )
+          ),
+          _react2.default.createElement(_MendhiRsvp2.default, null)
         )
       );
     }
@@ -1192,7 +1193,7 @@ var MendhiRsvp = function (_React$Component) {
             _react2.default.createElement('br', null),
             _react2.default.createElement('input', { className: 'form-email', placeholder: 'Email' }),
             _react2.default.createElement('br', null),
-            _react2.default.createElement('input', { className: 'form-event', defaultValue: 'Mendhi' }),
+            _react2.default.createElement('input', { className: 'form-event', value: 'Mendhi', readOnly: true }),
             _react2.default.createElement('br', null),
             _react2.default.createElement('input', { className: 'form-number-attending', placeholder: '# attending' }),
             _react2.default.createElement('br', null),

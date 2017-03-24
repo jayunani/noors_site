@@ -15,7 +15,7 @@ class MendhiRsvp extends React.Component {
                 <br/>
               <input className='form-email' placeholder='Email' />
                 <br/>
-              <input className='form-event' defaultValue='Mendhi'/>
+              <input className='form-event' value='Mendhi' readOnly/>
                 <br/>
               <input className='form-number-attending' placeholder='# attending' />
                 <br/>

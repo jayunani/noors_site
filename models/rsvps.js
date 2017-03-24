@@ -4,9 +4,15 @@
 //   firstName: String,
 //   lastName: String,
 //   email: String,
-//   event: String,
-//   numberOfGuests: Number,
-//   messageForCouple: String
+//   mendhi: Boolean,
+//   mendhiNumOfGuests: Number,
+//   mendhiNamesOfGuests: String,
+//   shaadi: Boolean,
+//   shaadiNumOfGuests: Number,
+//   shaadiNamesOfGuests: String,
+//   valima: Boolean,
+//   valimaNumOfGuests: Number,
+//   valimaNamesOfGuests: String
 // });
 
 // module.exports = mongoose.model('GuestForm', guestForm);
