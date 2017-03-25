@@ -115,10 +115,6 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _MendhiRsvp = require('../RsvpForms/MendhiRsvp');
-
-var _MendhiRsvp2 = _interopRequireDefault(_MendhiRsvp);
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -194,11 +190,6 @@ var MendhiDetails = function (_React$Component) {
                 'div',
                 null,
                 ' 6:30 PM: All guests '
-              ),
-              _react2.default.createElement(
-                'div',
-                null,
-                ' *Please be punctual '
               )
             )
           ),
@@ -210,8 +201,7 @@ var MendhiDetails = function (_React$Component) {
               { href: 'https://www.google.com/maps/place/Diamond+Bar+Center/@33.9986695,-117.7999005,17z/data=!3m1!4b1!4m5!3m4!1s0x80c32ce8e2ae8d11:0xdce3ea98d1d8016b!8m2!3d33.9986695!4d-117.7977118', target: '_blank' },
               ' Map it for me! '
             )
-          ),
-          _react2.default.createElement(_MendhiRsvp2.default, null)
+          )
         )
       );
     }
@@ -222,7 +212,7 @@ var MendhiDetails = function (_React$Component) {
 
 exports.default = MendhiDetails;
 
-},{"../RsvpForms/MendhiRsvp":16,"react":"react"}],4:[function(require,module,exports){
+},{"react":"react"}],4:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -234,10 +224,6 @@ var _createClass = function () { function defineProperties(target, props) { for 
 var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
-
-var _ShaadiRsvp = require('../RsvpForms/ShaadiRsvp');
-
-var _ShaadiRsvp2 = _interopRequireDefault(_ShaadiRsvp);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -261,7 +247,7 @@ var ShaadiDetails = function (_React$Component) {
     value: function render() {
       return _react2.default.createElement(
         'div',
-        { className: 'shaadi-details' },
+        { className: 'mendhi-details' },
         _react2.default.createElement(
           'div',
           { className: 'event-details-title' },
@@ -269,15 +255,10 @@ var ShaadiDetails = function (_React$Component) {
         ),
         _react2.default.createElement(
           'div',
-          { className: 'shaadi-content' },
+          { className: 'mendhi-content' },
           _react2.default.createElement(
             'div',
             { className: 'event-details' },
-            _react2.default.createElement(
-              'div',
-              { className: 'event-message' },
-              'The Abbas Family graciously thanks you for taking the time to RSVP. We would be honored to have you share this joyous occasion with us. May Allah put Barakah in our time and families. Ameen!'
-            ),
             _react2.default.createElement(
               'div',
               { className: 'event-address' },
@@ -319,7 +300,7 @@ var ShaadiDetails = function (_React$Component) {
           ),
           _react2.default.createElement(
             'div',
-            { className: 'shaadi-map', id: 'map' },
+            { className: 'mendhi-map', id: 'map' },
             _react2.default.createElement(
               'a',
               { href: 'https://www.google.com/maps/place/Hotel+Irvine/@33.6779948,-117.842502,17z/data=!3m1!4b1!4m5!3m4!1s0x80dcde85dee606c7:0x84a9c455ba214a57!8m2!3d33.6779948!4d-117.8403133', target: '_blank' },
@@ -336,7 +317,7 @@ var ShaadiDetails = function (_React$Component) {
 
 exports.default = ShaadiDetails;
 
-},{"../RsvpForms/ShaadiRsvp":17,"react":"react"}],5:[function(require,module,exports){
+},{"react":"react"}],5:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -348,10 +329,6 @@ var _createClass = function () { function defineProperties(target, props) { for 
 var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
-
-var _ValimaRsvp = require('../RsvpForms/ValimaRsvp');
-
-var _ValimaRsvp2 = _interopRequireDefault(_ValimaRsvp);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -375,7 +352,7 @@ var ValimaDetails = function (_React$Component) {
     value: function render() {
       return _react2.default.createElement(
         'div',
-        { className: 'valima-details' },
+        { className: 'mendhi-details' },
         _react2.default.createElement(
           'div',
           { className: 'event-details-title' },
@@ -383,7 +360,7 @@ var ValimaDetails = function (_React$Component) {
         ),
         _react2.default.createElement(
           'div',
-          { className: 'valima-content' },
+          { className: 'mendhi-content' },
           _react2.default.createElement(
             'div',
             { className: 'event-details' },
@@ -428,7 +405,7 @@ var ValimaDetails = function (_React$Component) {
           ),
           _react2.default.createElement(
             'div',
-            { className: 'valima-map', id: 'map' },
+            { className: 'mendhi-map', id: 'map' },
             _react2.default.createElement(
               'a',
               { href: 'https://www.google.com/maps/place/Crow+Canyon+Country+Club/@37.7862839,-121.97088,15z/data=!4m5!3m4!1s0x808ff2e8f834a689:0x3a8c90dbd7a4743a!8m2!3d37.7862839!4d-121.9621253', target: '_blank' },
@@ -445,7 +422,7 @@ var ValimaDetails = function (_React$Component) {
 
 exports.default = ValimaDetails;
 
-},{"../RsvpForms/ValimaRsvp":18,"react":"react"}],6:[function(require,module,exports){
+},{"react":"react"}],6:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -586,70 +563,6 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Footer = require('./Footer.js');
-
-var _Footer2 = _interopRequireDefault(_Footer);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var Hotels = function (_React$Component) {
-  _inherits(Hotels, _React$Component);
-
-  function Hotels() {
-    _classCallCheck(this, Hotels);
-
-    return _possibleConstructorReturn(this, (Hotels.__proto__ || Object.getPrototypeOf(Hotels)).apply(this, arguments));
-  }
-
-  _createClass(Hotels, [{
-    key: 'render',
-    value: function render() {
-      return _react2.default.createElement(
-        'div',
-        { className: 'hotels-page' },
-        _react2.default.createElement(
-          'div',
-          { className: 'hotels-title' },
-          _react2.default.createElement('img', { src: '/img/bismillah8.png', className: 'bismallah' }),
-          _react2.default.createElement(
-            'div',
-            { className: 'hotels' },
-            ' Event Details '
-          )
-        ),
-        _react2.default.createElement(
-          'div',
-          { className: 'hotels-content' },
-          _react2.default.createElement(MendhiDetails, null)
-        )
-      );
-    }
-  }]);
-
-  return Hotels;
-}(_react2.default.Component);
-
-exports.default = Hotels;
-
-},{"./Footer.js":6,"react":"react"}],9:[function(require,module,exports){
-'use strict';
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = require('react');
-
-var _react2 = _interopRequireDefault(_react);
-
 var _MendhiDetails = require('../EventDetails/MendhiDetails.js');
 
 var _MendhiDetails2 = _interopRequireDefault(_MendhiDetails);
@@ -694,7 +607,25 @@ var Henna1 = function (_React$Component) {
         _react2.default.createElement(
           'div',
           { className: 'event-content' },
-          _react2.default.createElement(_MendhiDetails2.default, null)
+          _react2.default.createElement(_MendhiDetails2.default, null),
+          _react2.default.createElement(
+            'div',
+            { className: 'rsvp-form' },
+            _react2.default.createElement(
+              'div',
+              { className: 'event-form' },
+              _react2.default.createElement(
+                'button',
+                { className: 'form-title', 'data-toggle': 'collapse', 'data-target': '.collapsed-form-mendhi' },
+                '*click* to RSVP'
+              ),
+              _react2.default.createElement(
+                'iframe',
+                { className: 'collapsed-form-mendhi collapse collapsed-div', src: 'https://docs.google.com/forms/d/e/1FAIpQLScoyFfb0vDvUhYeoXq2rWsIuw-6i_fdM_mrjaa3mY7jHkrEQw/viewform?embedded=true', width: '760', height: '500', frameborder: '0', marginheight: '0', marginwidth: '0' },
+                'Loading...'
+              )
+            )
+          )
         ),
         _react2.default.createElement(_Footer2.default, null)
       );
@@ -706,7 +637,7 @@ var Henna1 = function (_React$Component) {
 
 exports.default = Henna1;
 
-},{"../EventDetails/MendhiDetails.js":3,"../Footer.js":6,"react":"react"}],10:[function(require,module,exports){
+},{"../EventDetails/MendhiDetails.js":3,"../Footer.js":6,"react":"react"}],9:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -753,22 +684,42 @@ var Mabrook23 = function (_React$Component) {
     value: function render() {
       return _react2.default.createElement(
         'div',
-        { className: 'mabrook23-page' },
+        { className: 'page' },
         _react2.default.createElement(
           'div',
-          { className: 'mabrook23-title' },
+          { className: 'title' },
           _react2.default.createElement('img', { src: '/img/bismillah8.png', className: 'bismallah' }),
           _react2.default.createElement(
             'div',
-            { className: 'event-details' },
+            { className: 'event' },
             ' Event Details '
           )
         ),
         _react2.default.createElement(
           'div',
-          { className: 'mabrook23-content' },
+          { className: 'event-content' },
           _react2.default.createElement(_ShaadiDetails2.default, null),
-          _react2.default.createElement(_ValimaDetails2.default, null)
+          _react2.default.createElement(_ValimaDetails2.default, null),
+          _react2.default.createElement(
+            'div',
+            { className: 'rsvp-form' },
+            _react2.default.createElement(
+              'div',
+              { className: 'event-form' },
+              _react2.default.createElement(
+                'button',
+                { className: 'form-title', 'data-toggle': 'collapse', 'data-target': '.collapsed-form-mendhi' },
+                '*click* to RSVP'
+              ),
+              _react2.default.createElement(
+                'iframe',
+                {
+                  className: 'collapsed-form-mendhi collapse collapsed-div',
+                  src: 'https://docs.google.com/forms/d/e/1FAIpQLSdWp7rY-285inz6jDQ0f9ryeF4NGiibzw90bcPfdlNfoBgxXA/viewform?embedded=true', width: '760', height: '500', frameborder: '0', marginheight: '0', marginwidth: '0' },
+                'Loading...'
+              )
+            )
+          )
         ),
         _react2.default.createElement(_Footer2.default, null)
       );
@@ -780,7 +731,7 @@ var Mabrook23 = function (_React$Component) {
 
 exports.default = Mabrook23;
 
-},{"../EventDetails/ShaadiDetails.js":4,"../EventDetails/ValimaDetails.js":5,"../Footer.js":6,"react":"react"}],11:[function(require,module,exports){
+},{"../EventDetails/ShaadiDetails.js":4,"../EventDetails/ValimaDetails.js":5,"../Footer.js":6,"react":"react"}],10:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -800,6 +751,10 @@ var _MendhiDetails2 = _interopRequireDefault(_MendhiDetails);
 var _ShaadiDetails = require('../EventDetails/ShaadiDetails.js');
 
 var _ShaadiDetails2 = _interopRequireDefault(_ShaadiDetails);
+
+var _Footer = require('../Footer.js');
+
+var _Footer2 = _interopRequireDefault(_Footer);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -838,8 +793,28 @@ var Mubarak12 = function (_React$Component) {
           'div',
           { className: 'event-content' },
           _react2.default.createElement(_MendhiDetails2.default, null),
-          _react2.default.createElement(_ShaadiDetails2.default, null)
-        )
+          _react2.default.createElement(_ShaadiDetails2.default, null),
+          _react2.default.createElement(
+            'div',
+            { className: 'rsvp-form' },
+            _react2.default.createElement(
+              'div',
+              { className: 'event-form' },
+              _react2.default.createElement(
+                'button',
+                { className: 'form-title', 'data-toggle': 'collapse', 'data-target': '.collapsed-form-mendhi' },
+                '*click* to RSVP'
+              ),
+              _react2.default.createElement(
+                'iframe',
+                {
+                  className: 'collapsed-form-mendhi collapse collapsed-div', src: 'https://docs.google.com/forms/d/e/1FAIpQLSfv3iZCR-V7SKazp5i3X6y7WzaiqpkpFO4ralTUI_dQC8MVuQ/viewform?embedded=true', width: '760', height: '500', frameborder: '0', marginheight: '0', marginwidth: '0' },
+                'Loading...'
+              )
+            )
+          )
+        ),
+        _react2.default.createElement(_Footer2.default, null)
       );
     }
   }]);
@@ -849,7 +824,7 @@ var Mubarak12 = function (_React$Component) {
 
 exports.default = Mubarak12;
 
-},{"../EventDetails/MendhiDetails.js":3,"../EventDetails/ShaadiDetails.js":4,"react":"react"}],12:[function(require,module,exports){
+},{"../EventDetails/MendhiDetails.js":3,"../EventDetails/ShaadiDetails.js":4,"../Footer.js":6,"react":"react"}],11:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -892,10 +867,10 @@ var Nooresul2 = function (_React$Component) {
     value: function render() {
       return _react2.default.createElement(
         'div',
-        { className: 'nooresul2-page' },
+        { className: 'page' },
         _react2.default.createElement(
           'div',
-          { className: 'nooresul2-title' },
+          { className: 'title' },
           _react2.default.createElement('img', { src: '/img/bismillah8.png', className: 'bismallah' }),
           _react2.default.createElement(
             'div',
@@ -905,8 +880,27 @@ var Nooresul2 = function (_React$Component) {
         ),
         _react2.default.createElement(
           'div',
-          { className: 'nooresul2-content' },
-          _react2.default.createElement(_ShaadiDetails2.default, null)
+          { className: 'event-content' },
+          _react2.default.createElement(_ShaadiDetails2.default, null),
+          _react2.default.createElement(
+            'div',
+            { className: 'rsvp-form' },
+            _react2.default.createElement(
+              'div',
+              { className: 'event-form' },
+              _react2.default.createElement(
+                'button',
+                { className: 'form-title', 'data-toggle': 'collapse', 'data-target': '.collapsed-form-mendhi' },
+                '*click* to RSVP'
+              ),
+              _react2.default.createElement(
+                'iframe',
+                {
+                  className: 'collapsed-form-mendhi collapse collapsed-div', src: 'https://docs.google.com/forms/d/e/1FAIpQLSf7p5d9jPdeMkCFYS-oPUKVo1mS1QX17Cxt7SGoLf8jqoqqhQ/viewform?embedded=true', width: '760', height: '500', frameborder: '0', marginheight: '0', marginwidth: '0' },
+                'Loading...'
+              )
+            )
+          )
         ),
         _react2.default.createElement(_Footer2.default, null)
       );
@@ -918,7 +912,7 @@ var Nooresul2 = function (_React$Component) {
 
 exports.default = Nooresul2;
 
-},{"../EventDetails/ShaadiDetails.js":4,"../Footer.js":6,"react":"react"}],13:[function(require,module,exports){
+},{"../EventDetails/ShaadiDetails.js":4,"../Footer.js":6,"react":"react"}],12:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -969,10 +963,10 @@ var Sajna123 = function (_React$Component) {
     value: function render() {
       return _react2.default.createElement(
         'div',
-        { className: 'sajna123-page' },
+        { className: 'page' },
         _react2.default.createElement(
           'div',
-          { className: 'sajna123-title' },
+          { className: 'title' },
           _react2.default.createElement('img', { src: '/img/bismillah8.png', className: 'bismallah' }),
           _react2.default.createElement(
             'div',
@@ -982,10 +976,29 @@ var Sajna123 = function (_React$Component) {
         ),
         _react2.default.createElement(
           'div',
-          { className: 'sajna123-content' },
+          { className: 'event-content' },
           _react2.default.createElement(_MendhiDetails2.default, null),
           _react2.default.createElement(_ShaadiDetails2.default, null),
-          _react2.default.createElement(_ValimaDetails2.default, null)
+          _react2.default.createElement(_ValimaDetails2.default, null),
+          _react2.default.createElement(
+            'div',
+            { className: 'rsvp-form' },
+            _react2.default.createElement(
+              'div',
+              { className: 'event-form' },
+              _react2.default.createElement(
+                'button',
+                { className: 'form-title', 'data-toggle': 'collapse', 'data-target': '.collapsed-form-mendhi' },
+                '*click* to RSVP'
+              ),
+              _react2.default.createElement(
+                'iframe',
+                {
+                  className: 'collapsed-form-mendhi collapse collapsed-div', src: 'https://docs.google.com/forms/d/e/1FAIpQLSeL0YxG095T8d9xCfRKWysvjurCrlfQUeS6y6_S_BTldguJhA/viewform?embedded=true', width: '760', height: '500', frameborder: '0', marginheight: '0', marginwidth: '0' },
+                'Loading...'
+              )
+            )
+          )
         ),
         _react2.default.createElement(_Footer2.default, null)
       );
@@ -997,7 +1010,7 @@ var Sajna123 = function (_React$Component) {
 
 exports.default = Sajna123;
 
-},{"../EventDetails/MendhiDetails.js":3,"../EventDetails/ShaadiDetails.js":4,"../EventDetails/ValimaDetails.js":5,"../Footer.js":6,"react":"react"}],14:[function(require,module,exports){
+},{"../EventDetails/MendhiDetails.js":3,"../EventDetails/ShaadiDetails.js":4,"../EventDetails/ValimaDetails.js":5,"../Footer.js":6,"react":"react"}],13:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -1040,10 +1053,10 @@ var Sulenoor3 = function (_React$Component) {
     value: function render() {
       return _react2.default.createElement(
         'div',
-        { className: 'sulenoor3-page' },
+        { className: 'page' },
         _react2.default.createElement(
           'div',
-          { className: 'sulenoor3-title' },
+          { className: 'title' },
           _react2.default.createElement('img', { src: '/img/bismillah8.png', className: 'bismallah' }),
           _react2.default.createElement(
             'div',
@@ -1053,8 +1066,27 @@ var Sulenoor3 = function (_React$Component) {
         ),
         _react2.default.createElement(
           'div',
-          { className: 'sulenoor3-content' },
-          _react2.default.createElement(_ValimaDetails2.default, null)
+          { className: 'event-content' },
+          _react2.default.createElement(_ValimaDetails2.default, null),
+          _react2.default.createElement(
+            'div',
+            { className: 'rsvp-form' },
+            _react2.default.createElement(
+              'div',
+              { className: 'event-form' },
+              _react2.default.createElement(
+                'button',
+                { className: 'form-title', 'data-toggle': 'collapse', 'data-target': '.collapsed-form-mendhi' },
+                '*click* to RSVP'
+              ),
+              _react2.default.createElement(
+                'iframe',
+                {
+                  className: 'collapsed-form-mendhi collapse collapsed-div', src: 'https://docs.google.com/forms/d/e/1FAIpQLSfsPu6AThjtZ9nmGFNiG8XOWF9qNe5fZ5tcJLt0CcXbsU9YSA/viewform?embedded=true', width: '760', height: '500', frameborder: '0', marginheight: '0', marginwidth: '0' },
+                'Loading...'
+              )
+            )
+          )
         ),
         _react2.default.createElement(_Footer2.default, null)
       );
@@ -1066,7 +1098,7 @@ var Sulenoor3 = function (_React$Component) {
 
 exports.default = Sulenoor3;
 
-},{"../EventDetails/ValimaDetails.js":5,"../Footer.js":6,"react":"react"}],15:[function(require,module,exports){
+},{"../EventDetails/ValimaDetails.js":5,"../Footer.js":6,"react":"react"}],14:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -1113,10 +1145,10 @@ var Tchowdhry13 = function (_React$Component) {
     value: function render() {
       return _react2.default.createElement(
         'div',
-        { className: 'tchowdhry13-page' },
+        { className: 'page' },
         _react2.default.createElement(
           'div',
-          { className: 'tchowdhry13-title' },
+          { className: 'title' },
           _react2.default.createElement('img', { src: '/img/bismillah8.png', className: 'bismallah' }),
           _react2.default.createElement(
             'div',
@@ -1126,9 +1158,28 @@ var Tchowdhry13 = function (_React$Component) {
         ),
         _react2.default.createElement(
           'div',
-          { className: 'tchowdhry13-content' },
+          { className: 'event-content' },
           _react2.default.createElement(_MendhiDetails2.default, null),
-          _react2.default.createElement(_ValimaDetails2.default, null)
+          _react2.default.createElement(_ValimaDetails2.default, null),
+          _react2.default.createElement(
+            'div',
+            { className: 'rsvp-form' },
+            _react2.default.createElement(
+              'div',
+              { className: 'event-form' },
+              _react2.default.createElement(
+                'button',
+                { className: 'form-title', 'data-toggle': 'collapse', 'data-target': '.collapsed-form-mendhi' },
+                '*click* to RSVP'
+              ),
+              _react2.default.createElement(
+                'iframe',
+                {
+                  className: 'collapsed-form-mendhi collapse collapsed-div', src: 'https://docs.google.com/forms/d/e/1FAIpQLScMJ0I2GvcFR9GjOL42iWjFbLv3eUpqv7Iwxn6U8sB5RHItEw/viewform?embedded=true', width: '760', height: '500', frameborder: '0', marginheight: '0', marginwidth: '0' },
+                'Loading...'
+              )
+            )
+          )
         ),
         _react2.default.createElement(_Footer2.default, null)
       );
@@ -1140,226 +1191,7 @@ var Tchowdhry13 = function (_React$Component) {
 
 exports.default = Tchowdhry13;
 
-},{"../EventDetails/MendhiDetails.js":3,"../EventDetails/ValimaDetails.js":5,"../Footer.js":6,"react":"react"}],16:[function(require,module,exports){
-'use strict';
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = require('react');
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var MendhiRsvp = function (_React$Component) {
-  _inherits(MendhiRsvp, _React$Component);
-
-  function MendhiRsvp() {
-    _classCallCheck(this, MendhiRsvp);
-
-    return _possibleConstructorReturn(this, (MendhiRsvp.__proto__ || Object.getPrototypeOf(MendhiRsvp)).apply(this, arguments));
-  }
-
-  _createClass(MendhiRsvp, [{
-    key: 'render',
-    value: function render() {
-      return _react2.default.createElement(
-        'div',
-        { className: 'rsvp-form' },
-        _react2.default.createElement(
-          'div',
-          { className: 'event-form' },
-          _react2.default.createElement(
-            'button',
-            { className: 'form-title', 'data-toggle': 'collapse', 'data-target': '.collapsed-form-mendhi' },
-            '*click* to RSVP'
-          ),
-          _react2.default.createElement(
-            'form',
-            { className: 'collapsed-form-mendhi collapse collapsed-div' },
-            _react2.default.createElement('input', { className: 'form-first-name', placeholder: 'First Name' }),
-            _react2.default.createElement('br', null),
-            _react2.default.createElement('input', { className: 'form-last-name', placeholder: 'Last Name' }),
-            _react2.default.createElement('br', null),
-            _react2.default.createElement('input', { className: 'form-email', placeholder: 'Email' }),
-            _react2.default.createElement('br', null),
-            _react2.default.createElement('input', { className: 'form-event', value: 'Mendhi', readOnly: true }),
-            _react2.default.createElement('br', null),
-            _react2.default.createElement('input', { className: 'form-number-attending', placeholder: '# attending' }),
-            _react2.default.createElement('br', null),
-            _react2.default.createElement('input', { className: 'form-attendance-names', placeholder: 'Names of those attending' }),
-            _react2.default.createElement('br', null),
-            _react2.default.createElement('input', { className: 'form-message', placeholder: 'Message for the happy couple?' }),
-            _react2.default.createElement('br', null),
-            _react2.default.createElement('input', { className: 'form-submit', type: 'submit', value: 'Save me a plate!' })
-          )
-        )
-      );
-    }
-  }]);
-
-  return MendhiRsvp;
-}(_react2.default.Component);
-
-exports.default = MendhiRsvp;
-
-},{"react":"react"}],17:[function(require,module,exports){
-'use strict';
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = require('react');
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var ShaadiRsvp = function (_React$Component) {
-  _inherits(ShaadiRsvp, _React$Component);
-
-  function ShaadiRsvp() {
-    _classCallCheck(this, ShaadiRsvp);
-
-    return _possibleConstructorReturn(this, (ShaadiRsvp.__proto__ || Object.getPrototypeOf(ShaadiRsvp)).apply(this, arguments));
-  }
-
-  _createClass(ShaadiRsvp, [{
-    key: 'render',
-    value: function render() {
-      return _react2.default.createElement(
-        'div',
-        { className: 'rsvp-form' },
-        _react2.default.createElement(
-          'div',
-          { className: 'event-form' },
-          _react2.default.createElement(
-            'button',
-            { className: 'form-title', 'data-toggle': 'collapse', 'data-target': '.collapsed-form-shaadi' },
-            '*click* to RSVP'
-          ),
-          _react2.default.createElement(
-            'form',
-            { className: 'collapsed-form-shaadi collapse collapsed-div' },
-            _react2.default.createElement('input', { className: 'form-first-name', placeholder: 'First Name' }),
-            _react2.default.createElement('br', null),
-            _react2.default.createElement('input', { className: 'form-last-name', placeholder: 'Last Name' }),
-            _react2.default.createElement('br', null),
-            _react2.default.createElement('input', { className: 'form-email', placeholder: 'Email' }),
-            _react2.default.createElement('br', null),
-            _react2.default.createElement('input', { className: 'form-event', defaultValue: 'Shaadi' }),
-            _react2.default.createElement('br', null),
-            _react2.default.createElement('input', { className: 'form-number-attending', placeholder: '# attending' }),
-            _react2.default.createElement('br', null),
-            _react2.default.createElement('input', { className: 'form-attendance-names', placeholder: 'Names of those attending' }),
-            _react2.default.createElement('br', null),
-            _react2.default.createElement('input', { className: 'form-message', placeholder: 'Message for the happy couple?' }),
-            _react2.default.createElement('br', null),
-            _react2.default.createElement('input', { className: 'form-submit', type: 'submit', value: 'Save me a plate!' })
-          )
-        )
-      );
-    }
-  }]);
-
-  return ShaadiRsvp;
-}(_react2.default.Component);
-
-exports.default = ShaadiRsvp;
-
-},{"react":"react"}],18:[function(require,module,exports){
-'use strict';
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = require('react');
-
-var _react2 = _interopRequireDefault(_react);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var ValimaRsvp = function (_React$Component) {
-  _inherits(ValimaRsvp, _React$Component);
-
-  function ValimaRsvp() {
-    _classCallCheck(this, ValimaRsvp);
-
-    return _possibleConstructorReturn(this, (ValimaRsvp.__proto__ || Object.getPrototypeOf(ValimaRsvp)).apply(this, arguments));
-  }
-
-  _createClass(ValimaRsvp, [{
-    key: 'render',
-    value: function render() {
-      return _react2.default.createElement(
-        'div',
-        { className: 'rsvp-form' },
-        _react2.default.createElement(
-          'div',
-          { className: 'event-form' },
-          _react2.default.createElement(
-            'button',
-            { className: 'form-title', 'data-toggle': 'collapse', 'data-target': '.collapsed-form-valima' },
-            '*click* to RSVP'
-          ),
-          _react2.default.createElement(
-            'form',
-            { className: 'collapsed-form-valima collapse collapsed-div' },
-            _react2.default.createElement('input', { className: 'form-first-name', placeholder: 'First Name' }),
-            _react2.default.createElement('br', null),
-            _react2.default.createElement('input', { className: 'form-last-name', placeholder: 'Last Name' }),
-            _react2.default.createElement('br', null),
-            _react2.default.createElement('input', { className: 'form-email', placeholder: 'Email' }),
-            _react2.default.createElement('br', null),
-            _react2.default.createElement('input', { className: 'form-event', defaultValue: 'Valima' }),
-            _react2.default.createElement('br', null),
-            _react2.default.createElement('input', { className: 'form-number-attending', placeholder: '# attending' }),
-            _react2.default.createElement('br', null),
-            _react2.default.createElement('input', { className: 'form-attendance-names', placeholder: 'Names of those attending' }),
-            _react2.default.createElement('br', null),
-            _react2.default.createElement('input', { className: 'form-message', placeholder: 'Message for the happy couple?' }),
-            _react2.default.createElement('br', null),
-            _react2.default.createElement('input', { className: 'form-submit', type: 'submit', value: 'Save me a plate!' })
-          )
-        )
-      );
-    }
-  }]);
-
-  return ValimaRsvp;
-}(_react2.default.Component);
-
-exports.default = ValimaRsvp;
-
-},{"react":"react"}],19:[function(require,module,exports){
+},{"../EventDetails/MendhiDetails.js":3,"../EventDetails/ValimaDetails.js":5,"../Footer.js":6,"react":"react"}],15:[function(require,module,exports){
 'use strict';
 
 var _react = require('react');
@@ -1392,7 +1224,7 @@ _reactDom2.default.render(_react2.default.createElement(
   _routes2.default
 ), document.getElementById('app'));
 
-},{"./routes":20,"history/lib/createBrowserHistory":29,"react":"react","react-dom":"react-dom","react-router":"react-router"}],20:[function(require,module,exports){
+},{"./routes":16,"history/lib/createBrowserHistory":25,"react":"react","react-dom":"react-dom","react-router":"react-router"}],16:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -1445,10 +1277,6 @@ var _Error = require('./components/Error1');
 
 var _Error2 = _interopRequireDefault(_Error);
 
-var _Hotels = require('./components/Hotels');
-
-var _Hotels2 = _interopRequireDefault(_Hotels);
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.default = _react2.default.createElement(
@@ -1462,11 +1290,10 @@ exports.default = _react2.default.createElement(
   _react2.default.createElement(_reactRouter.Route, { path: 'noorethaoos', component: _Sulenoor2.default }),
   _react2.default.createElement(_reactRouter.Route, { path: '562925', component: _Nooresul2.default }),
   _react2.default.createElement(_reactRouter.Route, { path: 'villagepizza', component: _Tchowdhry2.default }),
-  _react2.default.createElement(_reactRouter.Route, { path: 'hotels245', component: _Hotels2.default }),
   _react2.default.createElement(_reactRouter.Route, { path: 'error1', component: _Error2.default })
 );
 
-},{"./components/App":1,"./components/Error1":2,"./components/Home":7,"./components/Hotels":8,"./components/Pages/Henna1":9,"./components/Pages/Mabrook23":10,"./components/Pages/Mubarak12":11,"./components/Pages/Nooresul2":12,"./components/Pages/Sajna123":13,"./components/Pages/Sulenoor3":14,"./components/Pages/Tchowdhry13":15,"react":"react","react-router":"react-router"}],21:[function(require,module,exports){
+},{"./components/App":1,"./components/Error1":2,"./components/Home":7,"./components/Pages/Henna1":8,"./components/Pages/Mabrook23":9,"./components/Pages/Mubarak12":10,"./components/Pages/Nooresul2":11,"./components/Pages/Sajna123":12,"./components/Pages/Sulenoor3":13,"./components/Pages/Tchowdhry13":14,"react":"react","react-router":"react-router"}],17:[function(require,module,exports){
 var pSlice = Array.prototype.slice;
 var objectKeys = require('./lib/keys.js');
 var isArguments = require('./lib/is_arguments.js');
@@ -1562,7 +1389,7 @@ function objEquiv(a, b, opts) {
   return typeof a === typeof b;
 }
 
-},{"./lib/is_arguments.js":22,"./lib/keys.js":23}],22:[function(require,module,exports){
+},{"./lib/is_arguments.js":18,"./lib/keys.js":19}],18:[function(require,module,exports){
 var supportsArgumentsClass = (function(){
   return Object.prototype.toString.call(arguments)
 })() == '[object Arguments]';
@@ -1584,7 +1411,7 @@ function unsupported(object){
     false;
 };
 
-},{}],23:[function(require,module,exports){
+},{}],19:[function(require,module,exports){
 exports = module.exports = typeof Object.keys === 'function'
   ? Object.keys : shim;
 
@@ -1595,7 +1422,7 @@ function shim (obj) {
   return keys;
 }
 
-},{}],24:[function(require,module,exports){
+},{}],20:[function(require,module,exports){
 /**
  * Indicates that navigation was caused by a call to history.push.
  */
@@ -1627,7 +1454,7 @@ exports['default'] = {
   REPLACE: REPLACE,
   POP: POP
 };
-},{}],25:[function(require,module,exports){
+},{}],21:[function(require,module,exports){
 "use strict";
 
 exports.__esModule = true;
@@ -1654,7 +1481,7 @@ function loopAsync(turns, work, callback) {
 
   next();
 }
-},{}],26:[function(require,module,exports){
+},{}],22:[function(require,module,exports){
 (function (process){
 /*eslint-disable no-empty */
 'use strict';
@@ -1726,7 +1553,7 @@ function readState(key) {
 }
 }).call(this,require('_process'))
 
-},{"_process":38,"warning":39}],27:[function(require,module,exports){
+},{"_process":34,"warning":35}],23:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
@@ -1807,13 +1634,13 @@ function supportsGoWithoutReloadUsingHash() {
   var ua = navigator.userAgent;
   return ua.indexOf('Firefox') === -1;
 }
-},{}],28:[function(require,module,exports){
+},{}],24:[function(require,module,exports){
 'use strict';
 
 exports.__esModule = true;
 var canUseDOM = !!(typeof window !== 'undefined' && window.document && window.document.createElement);
 exports.canUseDOM = canUseDOM;
-},{}],29:[function(require,module,exports){
+},{}],25:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -1995,7 +1822,7 @@ exports['default'] = createBrowserHistory;
 module.exports = exports['default'];
 }).call(this,require('_process'))
 
-},{"./Actions":24,"./DOMStateStorage":26,"./DOMUtils":27,"./ExecutionEnvironment":28,"./createDOMHistory":30,"./parsePath":35,"_process":38,"invariant":37}],30:[function(require,module,exports){
+},{"./Actions":20,"./DOMStateStorage":22,"./DOMUtils":23,"./ExecutionEnvironment":24,"./createDOMHistory":26,"./parsePath":31,"_process":34,"invariant":33}],26:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -2039,7 +1866,7 @@ exports['default'] = createDOMHistory;
 module.exports = exports['default'];
 }).call(this,require('_process'))
 
-},{"./DOMUtils":27,"./ExecutionEnvironment":28,"./createHistory":31,"_process":38,"invariant":37}],31:[function(require,module,exports){
+},{"./DOMUtils":23,"./ExecutionEnvironment":24,"./createHistory":27,"_process":34,"invariant":33}],27:[function(require,module,exports){
 //import warning from 'warning'
 'use strict';
 
@@ -2331,7 +2158,7 @@ function createHistory() {
 
 exports['default'] = createHistory;
 module.exports = exports['default'];
-},{"./Actions":24,"./AsyncUtils":25,"./createLocation":32,"./deprecate":33,"./parsePath":35,"./runTransitionHook":36,"deep-equal":21}],32:[function(require,module,exports){
+},{"./Actions":20,"./AsyncUtils":21,"./createLocation":28,"./deprecate":29,"./parsePath":31,"./runTransitionHook":32,"deep-equal":17}],28:[function(require,module,exports){
 //import warning from 'warning'
 'use strict';
 
@@ -2386,7 +2213,7 @@ function createLocation() {
 
 exports['default'] = createLocation;
 module.exports = exports['default'];
-},{"./Actions":24,"./parsePath":35}],33:[function(require,module,exports){
+},{"./Actions":20,"./parsePath":31}],29:[function(require,module,exports){
 //import warning from 'warning'
 
 "use strict";
@@ -2402,7 +2229,7 @@ function deprecate(fn) {
 
 exports["default"] = deprecate;
 module.exports = exports["default"];
-},{}],34:[function(require,module,exports){
+},{}],30:[function(require,module,exports){
 "use strict";
 
 exports.__esModule = true;
@@ -2416,7 +2243,7 @@ function extractPath(string) {
 
 exports["default"] = extractPath;
 module.exports = exports["default"];
-},{}],35:[function(require,module,exports){
+},{}],31:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -2464,7 +2291,7 @@ exports['default'] = parsePath;
 module.exports = exports['default'];
 }).call(this,require('_process'))
 
-},{"./extractPath":34,"_process":38,"warning":39}],36:[function(require,module,exports){
+},{"./extractPath":30,"_process":34,"warning":35}],32:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -2492,7 +2319,7 @@ exports['default'] = runTransitionHook;
 module.exports = exports['default'];
 }).call(this,require('_process'))
 
-},{"_process":38,"warning":39}],37:[function(require,module,exports){
+},{"_process":34,"warning":35}],33:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2015, Facebook, Inc.
@@ -2548,7 +2375,7 @@ module.exports = invariant;
 
 }).call(this,require('_process'))
 
-},{"_process":38}],38:[function(require,module,exports){
+},{"_process":34}],34:[function(require,module,exports){
 // shim for using process in browser
 var process = module.exports = {};
 
@@ -2730,7 +2557,7 @@ process.chdir = function (dir) {
 };
 process.umask = function() { return 0; };
 
-},{}],39:[function(require,module,exports){
+},{}],35:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-2015, Facebook, Inc.
@@ -2795,6 +2622,6 @@ module.exports = warning;
 
 }).call(this,require('_process'))
 
-},{"_process":38}]},{},[19])
+},{"_process":34}]},{},[15])
 
 //# sourceMappingURL=bundle.js.map

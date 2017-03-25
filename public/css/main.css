@@ -6675,6 +6675,21 @@ button.close {
     display: none !important;
   }
 }
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  body .event-details {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  body .event-details .event-address {
+    width: 100%;
+  }
+  body .event-details .event-schedule {
+    width: 100%;
+  }
+}
 .home-page {
   text-align: center;
   font-family: 'Great Vibes', cursive;
@@ -6732,9 +6747,6 @@ button.close {
 }
 .page .event-content {
   margin: 5%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 .page .event-content .mendhi-details {
   width: 100%;
@@ -6743,7 +6755,7 @@ button.close {
   font-size: 48px;
   background-color: #ddf694;
   color: black;
-  width: 85%;
+  width: 75%;
   margin-left: auto;
   margin-right: auto;
   border-radius: 5px;
@@ -6776,34 +6788,6 @@ button.close {
 .page .event-content .mendhi-details .mendhi-content .mendhi-map a:hover {
   color: #ff5b5b;
 }
-.page .event-content .mendhi-details .shaadi-content .event-details {
-  font-size: 40px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-.page .event-content .mendhi-details .shaadi-content .event-details .event-address {
-  width: 50%;
-}
-.page .event-content .mendhi-details .shaadi-content .event-details .event-address .address-title {
-  color: #ff5b5b;
-  font-weight: bold;
-}
-.page .event-content .mendhi-details .shaadi-content .event-details .event-schedule {
-  width: 50%;
-}
-.page .event-content .mendhi-details .shaadi-content .event-details .event-schedule .schedule-title {
-  color: #ff5b5b;
-  font-weight: bold;
-}
-.page .event-content .mendhi-details .shaadi-content .shaadi-map a {
-  font-size: 40px;
-  text-decoration: none;
-  color: #97e565;
-}
-.page .event-content .mendhi-details .shaadi-content .shaadi-map a:hover {
-  color: #ff5b5b;
-}
 .page .event-content .rsvp-form {
   margin: auto;
 }
@@ -6816,33 +6800,27 @@ button.close {
   margin-right: auto;
   border-radius: 5px;
   border: none;
+  margin-bottom: 2%;
 }
 .page .event-content .rsvp-form .event-form button:focus {
   outline: 0;
 }
-.page .event-content .rsvp-form .event-form input {
-  width: 40%;
-  height: 40px;
-  font-size: 28px;
-  text-align: center;
-  margin: 1%;
-  outline: 0;
-  border-width: 0 0 2px 0;
-  border-color: #ff5b5b;
-  color: sandybrown;
-}
-.page .event-content .rsvp-form .event-form .form-submit {
-  border-radius: 5px;
-  background: #ddf694;
-  border-bottom: none;
-  color: black;
+.page .event-content .rsvp-form .event-form iframe {
+  margin: auto;
+  width: 50%;
+  border: 3px solid #ddf694;
 }
 .footer-section {
+  color: white;
+  font-family: arial;
   background-color: #ff8e68;
-  height: 200px;
 }
 .footer-section img {
-  height: 50%;
+  width: 50%;
+}
+.footer-section div {
+  width: 90%;
+  margin: auto;
 }
 .error1-page {
   text-align: center;

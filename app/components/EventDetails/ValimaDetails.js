@@ -1,12 +1,12 @@
 import React from 'react';
-import ValimaRsvp from '../RsvpForms/ValimaRsvp';
+
 class ValimaDetails extends React.Component {
   render() {
     return (
-      <div className='valima-details'>
+      <div className='mendhi-details'>
         {/*<div className='valima-header'> Join Ibrahim, Shoaib, and Zaynab for the valima ceremony! </div>*/}
         <div className='event-details-title'> Valima </div>
-        <div className='valima-content'>
+        <div className='mendhi-content'>
           <div className='event-details'>
 
             <div className='event-address'> 
@@ -22,11 +22,9 @@ class ValimaDetails extends React.Component {
             </div>
 
           </div>
-          <div className='valima-map' id='map'>
+          <div className='mendhi-map' id='map'>
             <a href='https://www.google.com/maps/place/Crow+Canyon+Country+Club/@37.7862839,-121.97088,15z/data=!4m5!3m4!1s0x808ff2e8f834a689:0x3a8c90dbd7a4743a!8m2!3d37.7862839!4d-121.9621253' target="_blank"> Map it for me! </a>
           </div>
-
-          {/*<ValimaRsvp />*/}
         </div>
       </div>
     );

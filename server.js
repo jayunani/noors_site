@@ -10,17 +10,19 @@ var path = require('path');
 var logger = require('morgan');
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
-var rsvps = require('./models/rsvps');
-var config = require('/config');
+// var rsvps = require('./models/rsvps');
+// var config = require('/config');
 
 var app = express();
 
-mongoose.connect(config.database);
-mongoose.connection.on('error', function() {
-  console.info('Error: Could not connect!')
-});
-
 app.set('port', process.env.PORT || 3000);
+
+//db config
+// mongoose.connect('mongodb://<dbuser>:<dbpassword>@ds139470.mlab.com:39470/noorswedding');
+// mongoose.connection.on('error', function() {
+//   console.info('Error: Could not connect!')
+// });
+
 app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
