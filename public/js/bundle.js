@@ -457,17 +457,21 @@ var Footer = function (_React$Component) {
     value: function render() {
       return _react2.default.createElement(
         'div',
-        { className: 'footer-section' },
+        { className: 'footer' },
         _react2.default.createElement(
           'div',
-          null,
+          { className: 'footer-message' },
           'We, Sulayman and Noor, are extremely blessed to have the love and care of all our family and friends. We so dearly appreciate all that you do and how you have affected our lives. May Allah continue to shower all of us with His Love and Blessings and always keep good people in our lives. Ameen. We\'d like to also especially appreciate our immensely loving parents who will never stop helping, caring, and protecting us and whom we could never repay. We love you, Mama, Baba, Ammi, Abbz.'
         ),
-        _react2.default.createElement('img', { src: '/img/SurahRum30-21.png' }),
         _react2.default.createElement(
           'div',
-          null,
-          '"And one of His signs is that He has created for you, spouses from amongst yourselves so that you might take comfort in them and He has placed between you, love and mercy. In this there is surely evidence (of the truth) for the people who carefully think." (Surah 30, Verse 21)'
+          { className: 'footer-section' },
+          _react2.default.createElement('img', { src: '/img/SurahRum30-21.png' }),
+          _react2.default.createElement(
+            'div',
+            { className: 'footer-quote' },
+            '"And one of His signs is that He has created for you, spouses from amongst yourselves so that you might take comfort in them and He has placed between you, love and mercy. In this there is surely evidence (of the truth) for the people who carefully think." (Surah 30, Verse 21)'
+          )
         )
       );
     }

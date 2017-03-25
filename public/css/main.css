@@ -6677,16 +6677,17 @@ button.close {
 }
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   body .event-details {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    text-align: center;
+    display: initial;
   }
   body .event-details .event-address {
     width: 100%;
+    font-size: 24px;
   }
   body .event-details .event-schedule {
+    width: 100%;
+    font-size: 24px;
+  }
+  body .footer img {
     width: 100%;
   }
 }
@@ -6807,18 +6808,26 @@ button.close {
 }
 .page .event-content .rsvp-form .event-form iframe {
   margin: auto;
-  width: 50%;
+  width: 70%;
   border: 3px solid #ddf694;
 }
-.footer-section {
-  color: white;
+.footer {
   font-family: arial;
+}
+.footer .footer-message {
+  color: #FF8E68;
+  width: 90%;
+  margin: auto auto 2% auto;
+}
+.footer .footer-section {
+  padding: 2%;
+  color: white;
   background-color: #ff8e68;
 }
-.footer-section img {
-  width: 50%;
+.footer .footer-section img {
+  width: 60%;
 }
-.footer-section div {
+.footer .footer-section div {
   width: 90%;
   margin: auto;
 }
