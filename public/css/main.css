@@ -4,6 +4,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
 html {
   font-family: sans-serif;
@@ -6676,69 +6677,172 @@ button.close {
 }
 .home-page {
   text-align: center;
+  font-family: 'Great Vibes', cursive;
+}
+.home-page .home-body {
+  background-image: url("/img/fireworks_pic_revised_2-02.jpg");
+  background-repeat: no-repeat;
+  height: 600px;
+}
+.home-page .home-body .noor-sulayman {
+  color: white;
+  font-size: 100px;
+  padding-top: 3%;
+}
+.home-page .home-body form {
   font-family: 'Amatic SC', cursive;
 }
-.home-page .home-title {
-  font-size: 96px;
-  color: white;
-  background-color: lightcoral;
-  padding-top: 3%;
-  height: 200px;
-}
-.home-page form {
-  margin: 5%;
-}
-.home-page form input {
+.home-page .home-body form input {
   height: 60px;
   width: 50%;
   text-align: center;
   font-size: 36px;
   margin: 1%;
   outline: 0;
-  border-width: 0 0 2px 0;
-  border-color: lightcoral;
+  border-radius: 5px;
+  border: none;
 }
-.home-page form .submit-btn {
+.home-page .home-body form .code-input {
+  margin-top: 10%;
+  background-color: white;
+  opacity: .7;
+}
+.home-page .home-body form .submit-btn {
   font-size: 36px;
   border: 1px solid lightcoral;
   background: lightcoral;
   color: white;
   border-radius: 5px;
+  opacity: .9;
 }
-.henna1-page {
+.page {
   text-align: center;
   font-family: 'Amatic SC', cursive;
 }
-.henna1-page .henna1-title {
+.page .title {
   font-size: 56px;
   color: black;
-  background-color: #bef4a3;
-  padding-top: 5%;
+  background-color: #ff8e68;
+  padding-top: 2%;
+  height: 150px;
+  font-weight: bold;
+}
+.page .title .bismallah {
+  width: 25%;
+}
+.page .event-content {
+  margin: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.page .event-content .mendhi-details {
+  width: 100%;
+}
+.page .event-content .mendhi-details .event-details-title {
+  font-size: 48px;
+  background-color: #ddf694;
+  color: black;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+.page .event-content .mendhi-details .mendhi-content .event-details {
+  font-size: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.page .event-content .mendhi-details .mendhi-content .event-details .event-address {
+  width: 50%;
+}
+.page .event-content .mendhi-details .mendhi-content .event-details .event-address .address-title {
+  color: #ff5b5b;
+  font-weight: bold;
+}
+.page .event-content .mendhi-details .mendhi-content .event-details .event-schedule {
+  width: 50%;
+}
+.page .event-content .mendhi-details .mendhi-content .event-details .event-schedule .schedule-title {
+  color: #ff5b5b;
+  font-weight: bold;
+}
+.page .event-content .mendhi-details .mendhi-content .mendhi-map a {
+  font-size: 40px;
+  text-decoration: none;
+  color: #97e565;
+}
+.page .event-content .mendhi-details .mendhi-content .mendhi-map a:hover {
+  color: #ff5b5b;
+}
+.page .event-content .mendhi-details .shaadi-content .event-details {
+  font-size: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.page .event-content .mendhi-details .shaadi-content .event-details .event-address {
+  width: 50%;
+}
+.page .event-content .mendhi-details .shaadi-content .event-details .event-address .address-title {
+  color: #ff5b5b;
+  font-weight: bold;
+}
+.page .event-content .mendhi-details .shaadi-content .event-details .event-schedule {
+  width: 50%;
+}
+.page .event-content .mendhi-details .shaadi-content .event-details .event-schedule .schedule-title {
+  color: #ff5b5b;
+  font-weight: bold;
+}
+.page .event-content .mendhi-details .shaadi-content .shaadi-map a {
+  font-size: 40px;
+  text-decoration: none;
+  color: #97e565;
+}
+.page .event-content .mendhi-details .shaadi-content .shaadi-map a:hover {
+  color: #ff5b5b;
+}
+.page .event-content .rsvp-form {
+  margin: auto;
+}
+.page .event-content .rsvp-form .event-form .form-title {
+  font-size: 32px;
+  background-color: #ddf694;
+  color: black;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  border: none;
+}
+.page .event-content .rsvp-form .event-form button:focus {
+  outline: 0;
+}
+.page .event-content .rsvp-form .event-form input {
+  width: 40%;
+  height: 40px;
+  font-size: 28px;
+  text-align: center;
+  margin: 1%;
+  outline: 0;
+  border-width: 0 0 2px 0;
+  border-color: #ff5b5b;
+  color: sandybrown;
+}
+.page .event-content .rsvp-form .event-form .form-submit {
+  border-radius: 5px;
+  background: #ddf694;
+  border-bottom: none;
+  color: black;
+}
+.footer-section {
+  background-color: #ff8e68;
   height: 200px;
 }
-.mubarak12-page {
-  text-align: center;
-  font-family: 'Amatic SC', cursive;
-}
-.sajna123-page {
-  text-align: center;
-  font-family: 'Amatic SC', cursive;
-}
-.mabrook23-page {
-  text-align: center;
-  font-family: 'Amatic SC', cursive;
-}
-.sulenoor3-page {
-  text-align: center;
-  font-family: 'Amatic SC', cursive;
-}
-.nooresul2-page {
-  text-align: center;
-  font-family: 'Amatic SC', cursive;
-}
-.tchowdhry13-page {
-  text-align: center;
-  font-family: 'Amatic SC', cursive;
+.footer-section img {
+  height: 50%;
 }
 .error1-page {
   text-align: center;
@@ -6758,4 +6862,7 @@ button.close {
   border: none;
   color: white;
   font-size: 36px;
+}
+.error1-page button:focus {
+  outline: 0;
 }

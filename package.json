@@ -12,11 +12,15 @@
     "watch": "nodemon server.js"
   },
   "babel": {
-    "presets": ["es2015", "react"]
+    "presets": [
+      "es2015",
+      "react"
+    ]
   },
   "dependencies": {
     "alt": "^0.17.8",
     "async": "^1.5.0",
+    "axios": "^0.15.3",
     "body-parser": "^1.14.1",
     "colors": "^1.1.2",
     "compression": "^1.6.0",
