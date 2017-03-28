@@ -10,7 +10,6 @@ import Sulenoor3 from './components/Pages/Sulenoor3';
 import Nooresul2 from './components/Pages/Nooresul2';
 import Tchowdhry13 from './components/Pages/Tchowdhry13';
 import Error1 from './components/Error1';
-import Hotels from './components/Hotels';
 
 export default (
   <Route component={App}>
@@ -22,7 +21,6 @@ export default (
     <Route path='noorethaoos' component={Sulenoor3} />
     <Route path='562925' component={Nooresul2} />
     <Route path='villagepizza' component={Tchowdhry13} />
-    <Route path='hotels245' component={Hotels} />
     <Route path='error1' component={Error1} />
   </Route>
 );
