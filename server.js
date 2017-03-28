@@ -9,19 +9,14 @@ var express = require('express');
 var path = require('path');
 var logger = require('morgan');
 var bodyParser = require('body-parser');
-var mongoose = require('mongoose');
-// var rsvps = require('./models/rsvps');
-// var config = require('/config');
 
 var app = express();
+var port = process.env.PORT || 8081;
 
-app.set('port', process.env.PORT || 3000);
+var server = app.listen(port, function () {
+  console.log('Server running at http://127.0.0.1:' + port + '/');
+});
 
-//db config
-// mongoose.connect('mongodb://<dbuser>:<dbpassword>@ds139470.mlab.com:39470/noorswedding');
-// mongoose.connection.on('error', function() {
-//   console.info('Error: Could not connect!')
-// });
 
 app.use(logger('dev'));
 app.use(bodyParser.json());
@@ -42,6 +37,6 @@ app.use(function(req, res) {
     }
   });
 });
-app.listen(app.get('port'), function() {
-  console.log('Express server listening on port ' + app.get('port'));
+app.listen(port, function() {
+  console.log('Express server listening on port ' + port);
 });
