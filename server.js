@@ -1,4 +1,5 @@
 require('babel-register');
+require('babel-core/register');
 
 var swig  = require('swig');
 var React = require('react');
