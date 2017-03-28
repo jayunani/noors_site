@@ -129,7 +129,7 @@ gulp.task('build', ['styles', 'vendor', 'browserify']);
 gulp.task('babel', function() {
     return gulp.src('./app/main.js')
     .pipe(babel({
-        presets: [es2015]
+        presets: ['es2015']
     }))
     .pipe(gulp.dest('dist'));
 });
