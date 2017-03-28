@@ -13,6 +13,9 @@ var browserify = require('browserify');
 var watchify = require('watchify');
 var uglify = require('gulp-uglify');
 var sourcemaps = require('gulp-sourcemaps');
+var babel = require('gulp-babel');
+var es2015 = require('babel-preset-es2015');
+var gulp = require('gulp');
 
 var production = process.env.NODE_ENV === 'production';
 
@@ -122,3 +125,11 @@ gulp.task('watch', function() {
 
 gulp.task('default', ['styles', 'vendor', 'browserify-watch', 'watch']);
 gulp.task('build', ['styles', 'vendor', 'browserify']);
+
+gulp.task('babel', function() {
+    return gulp.src('./app/main.js')
+    .pipe(babel({
+        presets: [es2015]
+    }))
+    .pipe(gulp.dest('dist'));
+});
